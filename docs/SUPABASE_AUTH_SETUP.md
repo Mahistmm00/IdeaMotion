@@ -27,7 +27,7 @@ Review `supabase/migrations/202610200001_auth_ownership.sql`. In the SQL Editor 
 
 Confirm RLS is enabled for all three public tables, `creator-media` is private, and signup cannot edit the `approved` column. Optional tables for jobs, assets and publications are not part of this migration yet. The approved-version immutability trigger also blocks deletion; later retention/deletion must introduce an explicitly authorized cleanup path rather than disabling this protection casually.
 
-## 3. Configure Auth and email templates — required
+## 3. Configure Auth URLs and email templates
 
 - Enable the email/password provider and **keep email confirmation enabled**.
 - Set the Site URL to `http://localhost:3000` for local testing and allow exactly `http://localhost:3000/auth/confirm`. Do not add wildcard public redirects. Later deployment must use the actual HTTPS app origin in both Supabase and `APP_URL`.
@@ -44,7 +44,7 @@ Confirm RLS is enabled for all three public tables, `creator-media` is private, 
 <a href="{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&amp;type=recovery">Reset your password</a>
 ```
 
-These template changes are required: this slice intentionally uses `verifyOtp` through the confirmation page, not a URL-fragment handler or an OAuth code callback. Confirm the preview links target your own application before sending test emails. Never paste a real email token or signed link into public issues, commits, screenshots, or chat.
+The custom token-hash templates above are supported and recommended for the explicit confirmation flow. Standard Supabase email links that redirect back with an authorization code are also supported through exchangeCodeForSession; they require the PKCE verifier cookie from the browser and site address used to request the email. An optional sb_flow_id is validated and preserved. Both formats show the confirmation button first and are consumed only by its Server Action. Confirm the preview links target your own application before sending test emails. Never paste real email tokens, codes or signed links into public issues, commits, screenshots or chat.
 
 ## 4. Configure ignored local environment
 
@@ -82,3 +82,11 @@ update public.profiles set approved = true where id = 'REPLACE_WITH_VERIFIED_OWN
 UI checks without credentials verify disabled states, navigation, missing-session guards and responsive layout only. Live generation remains unavailable even to an approved profile; later endpoints must recheck approval immediately before external work.
 
 Official integration references: [Supabase SSR](https://supabase.com/docs/guides/auth/server-side/nextjs), [password auth](https://supabase.com/docs/guides/auth/passwords), [Storage access control](https://supabase.com/docs/guides/storage/security/access-control), [PGlite](https://pglite.dev/docs/).
+
+## Callback troubleshooting
+
+A link containing `code` is a standard PKCE callback; it is not automatically invalid because it lacks `token_hash`. The page now supports either format and rejects ambiguous mixed/duplicate fields. On explicit confirmation, codes use the official `exchangeCodeForSession` API. Recovery uses validated verifier-derived SDK metadata; URL-supplied `type` or `next` cannot select a recovery redirect for a code. The installed SDK 2.118.0 returns this metadata at runtime although its public response type omits it; the app validates it and defaults to account status if absent/unknown.
+
+For code-based links, use the same browser and origin that requested the email; `localhost` and `127.0.0.1` have different cookie stores. If the original link already confirmed the email at Supabase but the app callback failed, first try normal sign-in. Otherwise request a fresh confirmation from `/verify-email` when the free email allowance permits. Missing verifier/expired/reused codes show recovery guidance rather than claiming success. Do not create another account solely because an old callback failed.
+
+Regression checks cover both formats, flow IDs, recovery routing, malformed/mixed inputs, missing-verifier/expired results and absent sessions. The browser proof uses a fabricated code and does not submit it; it proves recognition only, not real session exchange. Reference: https://supabase.com/docs/reference/javascript/auth-exchangecodeforsession.

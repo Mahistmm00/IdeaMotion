@@ -60,12 +60,16 @@ export function AuthForm({
   emailEnabled,
   tokenHash = "",
   confirmationType = "email",
+  code = "",
+  flowId = "",
 }: {
   mode: AuthMode;
   enabled: boolean;
   emailEnabled: boolean;
   tokenHash?: string;
   confirmationType?: string;
+  code?: string;
+  flowId?: string;
 }) {
   const content = modes[mode];
   const [state, action, pending] = useActionState<AuthFormState, FormData>(
@@ -173,12 +177,18 @@ export function AuthForm({
             </p>
           </div>
         )}
-        {mode === "confirm" && (
-          <>
-            <input type="hidden" name="tokenHash" value={tokenHash} />
-            <input type="hidden" name="type" value={confirmationType} />
-          </>
-        )}
+        {mode === "confirm" &&
+          (code ? (
+            <>
+              <input type="hidden" name="code" value={code} />
+              {flowId && <input type="hidden" name="flowId" value={flowId} />}
+            </>
+          ) : (
+            <>
+              <input type="hidden" name="tokenHash" value={tokenHash} />
+              <input type="hidden" name="type" value={confirmationType} />
+            </>
+          ))}
         {state.message && (
           <p
             className={state.success ? "auth-notice" : "auth-error"}

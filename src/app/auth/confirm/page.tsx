@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { AuthForm } from "../../../components/auth/auth-form";
 import { AuthFrame } from "../../../components/auth/auth-frame";
-import { confirmationSchema } from "../../../lib/auth/validation";
+import { parseConfirmationLink } from "../../../lib/auth/validation";
 import { getAuthConfig } from "../../../lib/supabase/server";
 export const dynamic = "force-dynamic";
 export const metadata = {
@@ -15,10 +15,7 @@ export default async function ConfirmPage({
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
   const params = await searchParams;
-  const input = confirmationSchema.safeParse({
-    tokenHash: params.token_hash,
-    type: params.type,
-  });
+  const input = parseConfirmationLink(params);
   return (
     <AuthFrame>
       {input.success ? (
@@ -26,8 +23,14 @@ export default async function ConfirmPage({
           mode="confirm"
           enabled={Boolean(getAuthConfig())}
           emailEnabled={false}
-          tokenHash={input.data.tokenHash}
-          confirmationType={input.data.type}
+          tokenHash={
+            input.data.kind === "token" ? input.data.tokenHash : undefined
+          }
+          confirmationType={
+            input.data.kind === "token" ? input.data.type : undefined
+          }
+          code={input.data.kind === "pkce" ? input.data.code : undefined}
+          flowId={input.data.kind === "pkce" ? input.data.flowId : undefined}
         />
       ) : (
         <section className="auth-card">

@@ -61,3 +61,7 @@ Default sender restrictions were checked against Supabase's current documentatio
 ### D28 follow-up — 20 October 2026
 
 After user-reported migration application, real API checks confirmed the three table endpoints exist and reject anonymous access; Auth settings permit email signup with confirmation required. Enabled the local email-availability flag and verified the browser signup button is active. Credentials remain ignored/local. This is limited hosted-readiness evidence, not proof of successful email delivery, all ownership policies or completed authentication. See PROGRESS.md for pending checks.
+
+### D28 callback compatibility follow-up — 20 October 2026
+
+Support standard PKCE code callbacks as well as the custom token-hash templates. Use the documented exchangeCodeForSession API and the pinned installed SDK implementation for optional flowId/verifier behavior. Validate the runtime-only redirectType metadata before choosing recovery; unknown/absent values default to account status. Preserve explicit POST confirmation, fixed destinations and no raw-token logging. Documentation no longer claims custom email templates are the only supported path. Real code redemption and email delivery are not inferred from mocked tests or a dummy-link preview.

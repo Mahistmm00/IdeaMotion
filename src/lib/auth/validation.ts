@@ -70,3 +70,44 @@ export function validationState(error: z.ZodError): AuthFormState {
     fieldErrors: z.flattenError(error).fieldErrors,
   };
 }
+
+const confirmationLinkSchema = z.discriminatedUnion("kind", [
+  z.strictObject({
+    kind: z.literal("pkce"),
+    code: z.string().regex(/^[A-Za-z0-9_-]{20,512}$/),
+    flowId: z
+      .string()
+      .regex(/^[A-Za-z0-9_-]{8,64}$/)
+      .optional(),
+  }),
+  z.strictObject({
+    kind: z.literal("token"),
+    tokenHash: confirmationSchema.shape.tokenHash,
+    type: confirmationSchema.shape.type,
+  }),
+]);
+
+// Accept either format, reject ambiguous/array inputs, and never interpret a next
+// destination or an untrusted URL type as the purpose of a PKCE session.
+export function parseConfirmationLink(params: Record<string, unknown>) {
+  if (params.code !== undefined) {
+    return confirmationLinkSchema.safeParse({
+      kind: "pkce",
+      code: params.token_hash !== undefined ? null : params.code,
+      flowId: params.sb_flow_id,
+    });
+  }
+  return confirmationLinkSchema.safeParse({
+    kind: "token",
+    tokenHash: params.token_hash,
+    type: params.type,
+  });
+}
+
+// The pinned SDK returns this verifier-derived metadata at runtime, although
+// its public response type omits it. Validate it; absence/unknown values must
+// never make an untrusted URL parameter determine recovery behavior.
+export function isRecoveryExchange(data: unknown) {
+  return z.object({ redirectType: z.literal("recovery") }).safeParse(data)
+    .success;
+}

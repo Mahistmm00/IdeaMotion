@@ -4,8 +4,9 @@ import { redirect } from "next/navigation";
 import { createClient, emailEnabled, getAuthConfig } from "../supabase/server";
 import {
   type AuthFormState,
-  confirmationSchema,
   emailSchema,
+  isRecoveryExchange,
+  parseConfirmationLink,
   passwordSchema,
   signInSchema,
   signUpSchema,
@@ -166,32 +167,49 @@ export async function confirmEmail(
   _previous: AuthFormState,
   form: FormData,
 ): Promise<AuthFormState> {
-  const input = confirmationSchema.safeParse({
-    tokenHash: form.get("tokenHash"),
-    type: form.get("type"),
+  const input = parseConfirmationLink({
+    code: form.get("code") ?? undefined,
+    sb_flow_id: form.get("flowId") ?? undefined,
+    token_hash: form.get("tokenHash") ?? undefined,
+    type: form.get("type") ?? undefined,
   });
   if (!input.success)
     return {
       message:
         "This link is invalid. Request a new confirmation or recovery email.",
     };
+  let recovery = false;
   try {
     const client = await createClient();
     if (!client) return unavailable;
-    const { error } = await client.auth.verifyOtp({
-      token_hash: input.data.tokenHash,
-      type: input.data.type,
-    });
-    if (error)
-      return {
-        message:
-          "This link is expired, already used, or invalid. Request a new email.",
-      };
+    if (input.data.kind === "pkce") {
+      const { data, error } = input.data.flowId
+        ? await client.auth.exchangeCodeForSession(input.data.code, {
+            flowId: input.data.flowId,
+          })
+        : await client.auth.exchangeCodeForSession(input.data.code);
+      if (error || !data.session || !data.user)
+        return {
+          message:
+            "This link could not be completed. Open it in the same browser where you requested it, or request a fresh email if it has expired or was already used.",
+        };
+      recovery = isRecoveryExchange(data);
+    } else {
+      const { error } = await client.auth.verifyOtp({
+        token_hash: input.data.tokenHash,
+        type: input.data.type,
+      });
+      if (error)
+        return {
+          message:
+            "This link is expired, already used, or invalid. Request a new email.",
+        };
+      recovery = input.data.type === "recovery";
+    }
   } catch {
     return unavailable;
   }
-  // Fixed destinations: never trust a next/redirect parameter from an email link.
-  redirect(input.data.type === "recovery" ? "/reset-password" : "/account");
+  redirect(recovery ? "/reset-password" : "/account");
 }
 
 export async function signOut(): Promise<void> {

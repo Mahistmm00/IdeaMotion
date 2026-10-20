@@ -3,6 +3,7 @@ import {
   authConfigSchema,
   confirmationSchema,
   emailSchema,
+  parseConfirmationLink,
   passwordSchema,
   safeProfileSchema,
   signUpSchema,
@@ -112,5 +113,30 @@ describe("auth trust boundaries", () => {
       }).success,
     ).toBe(false);
     expect(safeProfileSchema.safeParse(null).success).toBe(false);
+  });
+});
+
+describe("confirmation URL formats", () => {
+  const code = "00000000-0000-4000-8000-000000000001";
+  it("accepts a plain PKCE code and optional valid flow ID", () => {
+    expect(parseConfirmationLink({ code }).success).toBe(true);
+    expect(
+      parseConfirmationLink({ code, sb_flow_id: "unit_flow_123" }).success,
+    ).toBe(true);
+    expect(
+      parseConfirmationLink({ token_hash: "a".repeat(56), type: "email" })
+        .success,
+    ).toBe(true);
+  });
+  it("rejects malformed, duplicate, empty and ambiguous inputs", () => {
+    for (const params of [
+      { code: "" },
+      { code: [code, code] },
+      { code, token_hash: "a".repeat(56), type: "email" },
+      { code, sb_flow_id: "../bad" },
+      { code, sb_flow_id: "" },
+      { code: "<script>" },
+    ])
+      expect(parseConfirmationLink(params).success).toBe(false);
   });
 });

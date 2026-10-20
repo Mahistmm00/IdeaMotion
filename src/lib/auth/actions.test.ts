@@ -39,6 +39,7 @@ let auth: {
   getUser: ReturnType<typeof vi.fn>;
   updateUser: ReturnType<typeof vi.fn>;
   verifyOtp: ReturnType<typeof vi.fn>;
+  exchangeCodeForSession: ReturnType<typeof vi.fn>;
   resetPasswordForEmail: ReturnType<typeof vi.fn>;
 };
 beforeEach(() => {
@@ -52,6 +53,10 @@ beforeEach(() => {
       .mockResolvedValue({ error: null, data: { user: { id: "user" } } }),
     updateUser: vi.fn().mockResolvedValue({ error: null }),
     verifyOtp: vi.fn().mockResolvedValue({ error: null }),
+    exchangeCodeForSession: vi.fn().mockResolvedValue({
+      error: null,
+      data: { session: {}, user: { id: "unit-test" }, redirectType: null },
+    }),
     resetPasswordForEmail: vi.fn().mockResolvedValue({ error: null }),
   };
   mocks.createClient.mockResolvedValue({ auth });
@@ -166,5 +171,70 @@ describe("auth actions without live provider calls", () => {
     expect((await signIn(initial, form(credentials))).message).toMatch(
       /unavailable/,
     );
+  });
+});
+
+describe("PKCE confirmation callbacks", () => {
+  const code = "00000000-0000-4000-8000-000000000001";
+  it("exchanges a code only on the explicit confirmation action", async () => {
+    await expect(confirmEmail(initial, form({ code }))).rejects.toThrow(
+      "REDIRECT:/account",
+    );
+    expect(auth.exchangeCodeForSession).toHaveBeenCalledWith(code);
+    expect(auth.verifyOtp).not.toHaveBeenCalled();
+  });
+  it("preserves the SDK flow identifier when supplied", async () => {
+    await expect(
+      confirmEmail(initial, form({ code, flowId: "unit_flow_123" })),
+    ).rejects.toThrow("REDIRECT:/account");
+    expect(auth.exchangeCodeForSession).toHaveBeenCalledWith(code, {
+      flowId: "unit_flow_123",
+    });
+  });
+  it("uses verified recovery state and ignores URL-supplied purpose/destination", async () => {
+    await expect(
+      confirmEmail(
+        initial,
+        form({ code, type: "recovery", next: "https://attacker.test" }),
+      ),
+    ).rejects.toThrow("REDIRECT:/account");
+    auth.exchangeCodeForSession.mockResolvedValue({
+      error: null,
+      data: {
+        session: {},
+        user: { id: "unit-test" },
+        redirectType: "recovery",
+      },
+    });
+    await expect(confirmEmail(initial, form({ code }))).rejects.toThrow(
+      "REDIRECT:/reset-password",
+    );
+  });
+  it("handles an expired code or missing verifier without claiming authentication", async () => {
+    auth.exchangeCodeForSession.mockResolvedValue({
+      error: { code: "pkce_code_verifier_not_found" },
+      data: { session: null, user: null, redirectType: null },
+    });
+    const result = await confirmEmail(initial, form({ code }));
+    expect(result.message).toMatch(/same browser/);
+    expect(mocks.redirect).not.toHaveBeenCalled();
+  });
+  it("rejects ambiguous callbacks before calling Auth", async () => {
+    const result = await confirmEmail(
+      initial,
+      form({ code, tokenHash: "a".repeat(64), type: "email" }),
+    );
+    expect(result.message).toMatch(/invalid/);
+    expect(mocks.createClient).not.toHaveBeenCalled();
+  });
+  it("does not redirect when code exchange returns no session", async () => {
+    auth.exchangeCodeForSession.mockResolvedValue({
+      error: null,
+      data: { session: null, user: null, redirectType: null },
+    });
+    expect((await confirmEmail(initial, form({ code }))).message).toMatch(
+      /could not be completed/,
+    );
+    expect(mocks.redirect).not.toHaveBeenCalled();
   });
 });

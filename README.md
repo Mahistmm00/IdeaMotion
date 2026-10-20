@@ -19,7 +19,7 @@ Open [localhost:3000](http://localhost:3000). The preview and local tests requir
 npm run lint        # Biome lint and formatting, zero warnings
 npm run format      # Apply formatting and safe lint fixes
 npm run typecheck   # Generate Next.js route types and check TypeScript
-npm test           # 67 local schema, timing, auth-action and SQL policy tests
+npm test           # 75 local schema, timing, auth-action and SQL policy tests
 npm run build      # Production build
 npm start          # Serve the production build
 ```
@@ -62,4 +62,5 @@ T03 code is prepared. Next, configure one Free Supabase development project usin
 ## Git workflow
 
 Repository: https://github.com/Mahistmm00/IdeaMotion. Development uses `dev`; completed code changes are checked, committed, and pushed to `origin/dev`. Main-branch merges and public deployment are separate steps.
+
 
