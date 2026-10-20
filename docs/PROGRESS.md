@@ -74,3 +74,9 @@ Next: **T03 Supabase schema, RLS, email/password auth and approval**, including 
 ### Remaining T03 gate
 
 Create a single Free Supabase development project using the setup guide; apply the reviewed migration once, configure templates/redirects, place the publishable settings in ignored .env.local, and verify owner signup/confirmation, sign-in/out, recovery, two-user policies and private Storage through real APIs. Record actual evidence before marking T03 complete. Continue with the planned rendering slice only with the remaining hosted feasibility gates explicit; do not build the broad dashboard prematurely.
+
+### T03 hosted setup follow-up — 20 October 2026
+
+The user reported applying the migration. Read-only checks against the locally configured project's real Auth/REST APIs now confirm: email signup enabled, email confirmation required, and profiles/projects/project_versions recognized by the API with anonymous access rejected (42501). Previously profiles returned PGRST205. No rows or private data were requested (select=id, limit=0). Updated only the ignored local AUTH_EMAIL_ENABLED flag to true; project credentials were not printed, changed or staged. A fresh browser signup page showed Create account enabled and no configuration notice.
+
+This verifies endpoint/table presence and anonymous denial only, not all deployed RLS/trigger behavior. No account or email was created by the assistant. Real signup, confirmation, sign-in/out, recovery, two-user ownership and Storage API checks remain pending. T03 is not yet end-to-end complete.
