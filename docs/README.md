@@ -47,3 +47,5 @@ No external accounts, migrations, SDK integrations, tests, or deployments have b
 T01 and T02 are complete; continue with T03 in the implementation plan. See [shared contracts](SHARED_CONTRACTS.md) for the implemented schema and fixture guide. Complete the initial contracts/fixtures and one hosted rendering feasibility slice before building the complete dashboard. Do not skip into publishing or a fully styled application while hosted rendering and the free upload limit are unproven.
 
 
+
+T03 implementation/setup: [Supabase auth guide](SUPABASE_AUTH_SETUP.md). Code and local policy tests exist; hosted setup and delivery remain pending.

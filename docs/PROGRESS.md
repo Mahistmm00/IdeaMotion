@@ -51,3 +51,26 @@ T02: runtime schemas for plan/audio/timeline contracts, lawful deterministic sam
 See [shared contracts](SHARED_CONTRACTS.md) for validation boundaries. Width-aware caption layout and real character-to-word/audio mapping remain T04/T05 work; hashes and schema validity do not establish ownership, approval, existing bytes or trusted review. Fixtures cannot be played or downloaded as videos.
 
 Next: **T03 Supabase schema, RLS, email/password auth and approval**, including a verified $0 confirmation/recovery email path and ownership/self-approval tests. T05 hosted feasibility remains required before the broad dashboard build.
+
+## T03 — Supabase auth code and ownership foundation
+
+**Date:** 20 October 2026. **Status:** Code prepared and locally checked; hosted exit criteria pending. The user explicitly requested code/setup only because no Supabase project exists yet.
+
+- Added sign-in/signup, forgot/reset password, email verification/resend, explicit confirmation, conditional reset result, sign-out and a protected account/access-status page in the Violet & Peach shell. Homepage now links to sign in. Missing configuration leaves submissions disabled and private access closed.
+- Added strict auth/config validation, trusted app-origin construction, cookie-based SSR and proxy refresh, HttpOnly/SameSite cookies, HTTPS secure flags, uncached auth responses, verified server identity checks, generic recovery messaging and fixed redirects. Signup does not forward approval metadata. No live-generation endpoint exists.
+- Added an additive migration for profiles, projects and immutable versions, unique/composite ownership constraints, RLS, self-approval prevention through column grants, and a private creator-media bucket that denies direct browser operations. No hosted migration was applied; seed contains no credentials/accounts. Narrow signed-media delivery remains T05 work.
+- Added 29 auth/action/PostgreSQL tests to the prior 38. Policy tests execute real PostgreSQL roles/grants/RLS in PGlite with simulated Supabase platform tables and identity, not a running Supabase service.
+- Added SUPABASE_AUTH_SETUP.md with exact env variables, required email templates, migration review/order, owner-only approval and hosted acceptance checklist. Current sender restrictions support limited owner/team testing only; unrestricted public email delivery is unresolved. No account, SMTP subscription, paid plan or AI usage was created.
+
+### Actual checks
+
+- Dependency installation: succeeded; npm reported **0 vulnerabilities**. Runtime packages are Supabase SSR/JS and server-only; PGlite is development-only.
+- `npm run format`, `npm run lint`, `npm run typecheck`: passed.
+- `npm test`: **67 passed in five files**, including **13 SQL ownership/security tests**. SDK actions are mocked; no mail was sent.
+- `npm run build`: passed with all auth routes, account protection and proxy included.
+- Browser: sign-in and signup loaded; submissions disabled without configuration. Signup at 375px had document width equal to viewport width (no horizontal overflow). Recovery navigation worked; unauthenticated reset showed fresh-link guidance, unauthenticated account redirected to sign-in, and missing confirmation token showed recovery options. Desktop/mobile evidence: artifacts/auth-ui/. No real credentials were entered or submitted.
+- Docker CLI exists but the engine was not running; no Docker stack was started. No hosted Supabase, real email, authenticated cookie refresh, or Storage API result is claimed.
+
+### Remaining T03 gate
+
+Create a single Free Supabase development project using the setup guide; apply the reviewed migration once, configure templates/redirects, place the publishable settings in ignored .env.local, and verify owner signup/confirmation, sign-in/out, recovery, two-user policies and private Storage through real APIs. Record actual evidence before marking T03 complete. Continue with the planned rendering slice only with the remaining hosted feasibility gates explicit; do not build the broad dashboard prematurely.

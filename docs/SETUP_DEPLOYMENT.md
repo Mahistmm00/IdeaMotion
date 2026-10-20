@@ -97,3 +97,7 @@ For rollback, use a known-good app revision and disable incompatible jobs/featur
 ## 7. Required README additions at implementation
 
 Exact local commands, environment variable names/visibility, tested versions, migrations/seeds, auth setup, public URL, live/sample modes, approval restrictions, free limits, unit/hosted evidence, cleanup command, retention/attribution, optional Meta status, and known limitations. Until those exist, do not fabricate passing commands or deployment results.
+
+## T03 local auth implementation
+
+Exact env names, email templates, migration order and verified sender restrictions are now in [Supabase auth setup](SUPABASE_AUTH_SETUP.md). Use that guide for T03; the provider sections above remain future gates. The app requires only the publishable key at this step, not a secret/service credential. Hosted checks are still pending.

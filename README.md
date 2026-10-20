@@ -2,7 +2,7 @@
 
 A $0 portfolio project for narrated educational motion-graphics videos with synchronized captions, vertical/horizontal export, and a simple four-step creator workflow.
 
-**Current status:** T01 scaffold and T02 shared schemas/sample fixtures are implemented; see [progress](docs/PROGRESS.md) for verification. The responsive starter page is a concept preview, not a working video generator. Provider integrations and deployment have not started. There is no public app URL yet.
+**Current status:** T01 scaffold and T02 shared schemas/sample fixtures are implemented; see [progress](docs/PROGRESS.md) for verification. The responsive starter page is a concept preview, not a working video generator. T03 authentication code and local SQL policy checks are prepared; hosted Supabase setup and verification remain pending. Deployment has not started. There is no public app URL yet.
 
 ## Run locally
 
@@ -13,13 +13,13 @@ npm ci
 npm run dev
 ```
 
-Open [localhost:3000](http://localhost:3000). No accounts, API keys, or environment variables are needed for the scaffold. `.env.example` documents this; keep future real secrets in ignored `.env.local` files.
+Open [localhost:3000](http://localhost:3000). The preview and local tests require no accounts or API keys. Auth pages stay disabled until Supabase is configured; follow the [Supabase auth setup guide](docs/SUPABASE_AUTH_SETUP.md). `.env.example` documents this; keep future real secrets in ignored `.env.local` files.
 
 ```sh
 npm run lint        # Biome lint and formatting, zero warnings
 npm run format      # Apply formatting and safe lint fixes
 npm run typecheck   # Generate Next.js route types and check TypeScript
-npm test           # 38 deterministic schema and timing tests
+npm test           # 67 local schema, timing, auth-action and SQL policy tests
 npm run build      # Production build
 npm start          # Serve the production build
 ```
@@ -56,9 +56,10 @@ Start with the [documentation index](docs/README.md) and [PRD](docs/PRD.md). AI 
 
 Selected stack: Next.js/TypeScript/Node.js, Supabase Auth/Postgres/Storage, Vercel Hobby/Sandbox, Inngest Free, Remotion, Gemini, and ElevenLabs timing with custom synchronization logic. Provider eligibility and hosted feasibility must be verified before claiming working integrations.
 
-Next is T03: Supabase schema, ownership policies, and email/password authentication with a verified free email path. Supabase/auth and the thin rendering feasibility slice follow before the full dashboard. See the implementation checklist for dependencies.
+T03 code is prepared. Next, configure one Free Supabase development project using the auth setup guide and verify owner email, sessions, ownership and private Storage. Hosted auth is not yet proven; the thin rendering feasibility slice still precedes the full dashboard. See the implementation checklist for dependencies.
 
 
 ## Git workflow
 
 Repository: https://github.com/Mahistmm00/IdeaMotion. Development uses `dev`; completed code changes are checked, committed, and pushed to `origin/dev`. Main-branch merges and public deployment are separate steps.
+

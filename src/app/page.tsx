@@ -37,9 +37,14 @@ export default function Home() {
           </span>
           IdeaMotion<span className="wordmark-dot">.</span>
         </Link>
-        <span className="status-pill">
-          <span aria-hidden="true" /> In development
-        </span>
+        <div className="header-actions">
+          <Link className="header-signin" href="/sign-in">
+            Sign in
+          </Link>
+          <span className="status-pill">
+            <span aria-hidden="true" /> In development
+          </span>
+        </div>
       </header>
 
       <main id="main-content">

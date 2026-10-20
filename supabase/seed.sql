@@ -1,0 +1,3 @@
+-- Intentionally no hosted users, passwords, privileged profiles or live media seeds.
+-- Public educational sample fixtures live in src/fixtures/samples.ts.
+-- Isolated database test identities are created only in the in-memory test harness.

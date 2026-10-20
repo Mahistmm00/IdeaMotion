@@ -117,3 +117,7 @@ Project delete marks it inaccessible and cancels/blocks pending work. Do not har
 ## 8. Migration and evidence requirements
 
 Implement schema and RLS in versioned migrations, with deterministic seed fixtures excluding secrets. Test migrations on disposable/local data before applying to hosted data. No ad hoc destructive reset against a real project. Add test evidence for cross-owner denial, self-approval denial, immutable versions, autosave conflicts, global claim race, idempotency uniqueness, and pinned-asset cleanup. Schema design here is not evidence that any policy currently exists.
+
+## T03 implementation status
+
+The first migration implements profiles, projects and immutable versions plus a closed private bucket. Remaining tables are planned. See [auth setup](SUPABASE_AUTH_SETUP.md) and [progress](PROGRESS.md) for local SQL evidence and hosted verification gaps. No hosted migration has been applied.
