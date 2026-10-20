@@ -51,3 +51,5 @@ T01, T02 and T04 are complete; continue with remaining T03 hosted checks and T05
 T03 implementation/setup: [Supabase auth guide](SUPABASE_AUTH_SETUP.md). Code and local policy tests exist; user-confirmed auth flows work. Broader hosted RLS/Storage/session-refresh verification remains pending.
 
 T04 renderer and preview: [local rendering guide](LOCAL_RENDERING.md).
+
+T05 narration implementation and configuration: [ElevenLabs setup](NARRATION_SETUP.md). Real narration and both local narrated formats are verified; hosted feasibility remains incomplete.

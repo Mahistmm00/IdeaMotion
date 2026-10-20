@@ -19,7 +19,12 @@
     "check": "npm run lint && npm run typecheck && npm run test && npm run build",
     "video:studio": "remotion studio src/video/index.tsx --port=3101",
     "video:render:vertical": "remotion render src/video/index.tsx WaterCycle-vertical artifacts/render-proof/vertical.mp4 --concurrency=2 --port=3100",
-    "video:render:horizontal": "remotion render src/video/index.tsx WaterCycle-horizontal artifacts/render-proof/horizontal.mp4 --concurrency=2 --port=3100"
+    "video:render:horizontal": "remotion render src/video/index.tsx WaterCycle-horizontal artifacts/render-proof/horizontal.mp4 --concurrency=2 --port=3100",
+    "narration:check": "node --env-file-if-exists=.env.local --conditions=react-server --import tsx src/scripts/narration.ts check",
+    "narration:generate": "node --env-file-if-exists=.env.local --conditions=react-server --import tsx src/scripts/narration.ts generate",
+    "narration:prepare": "node --env-file-if-exists=.env.local --conditions=react-server --import tsx src/scripts/narration.ts prepare",
+    "video:render:narrated": "remotion render src/video/narrated-index.tsx NarratedWaterCycle artifacts/narration-proof/output.mp4 --props=artifacts/narration-proof/props.json --concurrency=2 --port=3100",
+    "video:render:narrated:vertical": "remotion render src/video/narrated-index.tsx NarratedWaterCycle artifacts/narration-proof/output-vertical.mp4 --props=artifacts/narration-proof/props-vertical.json --concurrency=2 --port=3100"
   },
   "dependencies": {
     "@fontsource/inter": "5.2.8",
@@ -42,6 +47,7 @@
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "tailwindcss": "4.3.3",
+    "tsx": "4.23.15",
     "typescript": "5.9.3",
     "vitest": "5.0.5"
   }

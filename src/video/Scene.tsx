@@ -2,13 +2,16 @@ import "@fontsource/inter/600.css";
 import { useEffect, useState } from "react";
 import {
   AbsoluteFill,
+  Audio,
   continueRender,
   delayRender,
   interpolate,
+  staticFile,
   useCurrentFrame,
 } from "remotion";
 import { z } from "zod";
-import { sceneTimelineSchema } from "../lib/schemas/timeline";
+import { sceneTimelineSchema, type WordV1 } from "../lib/schemas/timeline";
+import { resolveCue } from "../lib/timing/anchors";
 import { captionFrames } from "../lib/timing/frames";
 import { segmentCaptions, wrapText } from "./captions";
 import {
@@ -18,6 +21,7 @@ import {
   fixtureWords,
 } from "./fixture";
 import { sceneLayout } from "./layout";
+import { type NarratedProps, narratedPropsSchema } from "./narrated-contract";
 
 if (fixturePlan.component !== "process")
   throw new Error("Unsupported fixture.");
@@ -34,6 +38,50 @@ type Prepared = {
 
 export function ExplainerScene(input: PreviewProps) {
   const { format } = previewPropsSchema.parse(input);
+  return (
+    <ProcessScene
+      format={format}
+      words={fixtureWords}
+      events={fixtureEvents}
+      durationSeconds={fixtureDuration}
+      speechDependencyKey={"0".repeat(64)}
+      audioHash={null}
+    />
+  );
+}
+
+export function NarratedScene(input: NarratedProps) {
+  const props = narratedPropsSchema.parse(input);
+  const events = fixturePlan.cues.map((cue) =>
+    resolveCue(cue, props.words, props.durationSeconds),
+  );
+  return (
+    <ProcessScene
+      format={props.format}
+      words={props.words}
+      events={events}
+      durationSeconds={props.durationSeconds}
+      speechDependencyKey={props.speechDependencyKey}
+      audioHash={props.audioHash}
+    />
+  );
+}
+
+function ProcessScene({
+  format,
+  words,
+  events,
+  durationSeconds,
+  speechDependencyKey,
+  audioHash,
+}: {
+  format: PreviewProps["format"];
+  words: WordV1[];
+  events: typeof fixtureEvents;
+  durationSeconds: number;
+  speechDependencyKey: string;
+  audioHash: string | null;
+}) {
   const layout = sceneLayout(format);
   const frame = useCurrentFrame();
   const [handle] = useState(() =>
@@ -50,7 +98,7 @@ export function ExplainerScene(input: PreviewProps) {
         if (!context) throw new Error("Text measurement is unavailable.");
         context.font = "600 48px Inter";
         const captions = segmentCaptions(
-          fixtureWords,
+          words,
           layout.captionWidth - 80,
           (text) => context.measureText(text).width,
         );
@@ -79,11 +127,11 @@ export function ExplainerScene(input: PreviewProps) {
         sceneTimelineSchema.parse({
           schemaVersion: 1,
           sceneId: fixturePlan.sceneId,
-          speechDependencyKey: "0".repeat(64),
-          durationSeconds: fixtureDuration,
-          words: fixtureWords,
+          speechDependencyKey,
+          durationSeconds,
+          words,
           captions: captions.map(({ lines: _lines, ...caption }) => caption),
-          events: fixtureEvents,
+          events,
         });
         if (active)
           setPrepared({
@@ -91,7 +139,7 @@ export function ExplainerScene(input: PreviewProps) {
             frames: captionFrames(
               captions.map(({ start, end }) => ({ start, end })),
               30,
-              fixtureDuration,
+              durationSeconds,
             ),
           });
       } catch (failure) {
@@ -109,7 +157,16 @@ export function ExplainerScene(input: PreviewProps) {
     return () => {
       active = false;
     };
-  }, [handle, layout.captionWidth, layout.nodeWidth, layout.width]);
+  }, [
+    handle,
+    layout.captionWidth,
+    layout.nodeWidth,
+    layout.width,
+    words,
+    events,
+    durationSeconds,
+    speechDependencyKey,
+  ]);
   if (error) throw new Error(error);
   const captionIndex =
     prepared?.frames.findIndex(
@@ -128,6 +185,9 @@ export function ExplainerScene(input: PreviewProps) {
         fontWeight: 600,
       }}
     >
+      {audioHash ? (
+        <Audio src={staticFile(`narration-proof/${audioHash}.mp3`)} />
+      ) : null}
       <div
         style={{
           position: "absolute",
@@ -148,7 +208,7 @@ export function ExplainerScene(input: PreviewProps) {
       </div>
       {layout.nodes.map((node, index) => {
         const entity = processVisual.entities[index];
-        const event = fixtureEvents.find((e) => e.targetId === entity.id);
+        const event = events.find((e) => e.targetId === entity.id);
         const started = event ? frame >= Math.floor(event.start * 30) : false;
         const current = event
           ? started && frame < Math.ceil(event.end * 30)
@@ -232,7 +292,9 @@ export function ExplainerScene(input: PreviewProps) {
         </div>
       ) : null}
       <div style={{ position: "absolute", bottom: 48, left: 96, fontSize: 24 }}>
-        LOCAL RENDER PROOF · SYNTHETIC TIMING · SILENT SAMPLE
+        {audioHash
+          ? "The water cycle · elevenlabs.io"
+          : "LOCAL RENDER PROOF · SYNTHETIC TIMING · SILENT SAMPLE"}
       </div>
     </AbsoluteFill>
   );

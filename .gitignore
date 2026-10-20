@@ -30,3 +30,7 @@ artifacts/**/*.mp3
 artifacts/**/frames/
 tmp/
 .cache/
+
+# Private live narration evidence and temporary render input
+artifacts/narration-proof/
+public/narration-proof/

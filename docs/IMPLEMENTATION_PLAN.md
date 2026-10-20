@@ -1,6 +1,6 @@
 # Implementation checklist and AI task handoff
 
-**Status:** T01, T02 and T04 are implemented. T03 user auth flows are confirmed; broader hosted security/storage checks remain open. T05 is next and not started. See [progress](PROGRESS.md) for evidence.
+**Status:** T01, T02 and T04 are implemented. T03 user auth flows are confirmed; broader hosted security/storage checks remain open. T05 real narration and both local narrated exports now pass; hosted execution/upload/playback remain pending. See [progress](PROGRESS.md) for evidence.
 
 ## Execution rules
 
