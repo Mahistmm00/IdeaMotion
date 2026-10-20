@@ -16,20 +16,27 @@
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "check": "npm run lint && npm run typecheck && npm run test && npm run build"
+    "check": "npm run lint && npm run typecheck && npm run test && npm run build",
+    "video:studio": "remotion studio src/video/index.tsx --port=3101",
+    "video:render:vertical": "remotion render src/video/index.tsx WaterCycle-vertical artifacts/render-proof/vertical.mp4 --concurrency=2 --port=3100",
+    "video:render:horizontal": "remotion render src/video/index.tsx WaterCycle-horizontal artifacts/render-proof/horizontal.mp4 --concurrency=2 --port=3100"
   },
   "dependencies": {
+    "@fontsource/inter": "5.2.8",
+    "@remotion/player": "4.0.537",
     "@supabase/ssr": "0.12.7",
     "@supabase/supabase-js": "2.118.0",
     "next": "16.4.2",
     "react": "19.3.1",
     "react-dom": "19.3.1",
+    "remotion": "4.0.537",
     "server-only": "0.0.1",
-    "zod": "4.6.7"
+    "zod": "4.5.4"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.15",
     "@electric-sql/pglite": "0.5.10",
+    "@remotion/cli": "4.0.537",
     "@tailwindcss/postcss": "4.3.3",
     "@types/node": "24.19.2",
     "@types/react": "19.3.0",

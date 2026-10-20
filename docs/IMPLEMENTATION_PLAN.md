@@ -1,6 +1,6 @@
 # Implementation checklist and AI task handoff
 
-**Status:** T01 and T02 completed 20 October 2026. See [progress](PROGRESS.md) for task completion and actual evidence. Remaining tasks are not started; provider setup is not implied.
+**Status:** T01, T02 and T04 are implemented. T03 user auth flows are confirmed; broader hosted security/storage checks remain open. T05 is next and not started. See [progress](PROGRESS.md) for evidence.
 
 ## Execution rules
 

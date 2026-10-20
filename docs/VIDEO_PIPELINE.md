@@ -1,6 +1,6 @@
 # Video, caption, and animation pipeline specification
 
-**Status:** Internal design contract, 19 October 2026. This defines our data/algorithms; it is not an implemented renderer. [PRD](PRD.md) owns duration/formats/quality targets; [API/workflows](API_WORKFLOWS.md) owns asynchronous jobs.
+**Status:** Internal design contract, 19 October 2026. This defines our data/algorithms; T04 now implements one local process-scene fixture and custom captions. See [local rendering](LOCAL_RENDERING.md); the full pipeline remains planned. [PRD](PRD.md) owns duration/formats/quality targets; [API/workflows](API_WORKFLOWS.md) owns asynchronous jobs.
 
 ## 1. Responsibilities and boundaries
 

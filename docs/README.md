@@ -1,6 +1,6 @@
 # Documentation index and AI reading order
 
-**Updated:** 20 October 2026. T01 scaffold and T02 shared contracts/fixtures are implemented. See [implementation progress](PROGRESS.md) for actual checks; planning guides describe features that are not yet implemented.
+**Updated:** 20 October 2026. T01 scaffold, T02 shared contracts/fixtures and T04 local scene rendering are implemented. See [implementation progress](PROGRESS.md) for actual checks; planning guides describe features that are not yet implemented.
 
 ## Authority
 
@@ -44,8 +44,10 @@ No external accounts, migrations, SDK integrations, tests, or deployments have b
 
 ## First implementation handoff
 
-T01 and T02 are complete; continue with T03 in the implementation plan. See [shared contracts](SHARED_CONTRACTS.md) for the implemented schema and fixture guide. Complete the initial contracts/fixtures and one hosted rendering feasibility slice before building the complete dashboard. Do not skip into publishing or a fully styled application while hosted rendering and the free upload limit are unproven.
+T01, T02 and T04 are complete; continue with remaining T03 hosted checks and T05 in the implementation plan. See [shared contracts](SHARED_CONTRACTS.md) for the implemented schema and fixture guide. Complete the initial contracts/fixtures and one hosted rendering feasibility slice before building the complete dashboard. Do not skip into publishing or a fully styled application while hosted rendering and the free upload limit are unproven.
 
 
 
-T03 implementation/setup: [Supabase auth guide](SUPABASE_AUTH_SETUP.md). Code and local policy tests exist; hosted setup and delivery remain pending.
+T03 implementation/setup: [Supabase auth guide](SUPABASE_AUTH_SETUP.md). Code and local policy tests exist; user-confirmed auth flows work. Broader hosted RLS/Storage/session-refresh verification remains pending.
+
+T04 renderer and preview: [local rendering guide](LOCAL_RENDERING.md).

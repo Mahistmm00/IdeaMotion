@@ -65,3 +65,9 @@ After user-reported migration application, real API checks confirmed the three t
 ### D28 callback compatibility follow-up — 20 October 2026
 
 Support standard PKCE code callbacks as well as the custom token-hash templates. Use the documented exchangeCodeForSession API and the pinned installed SDK implementation for optional flowId/verifier behavior. Validate the runtime-only redirectType metadata before choosing recovery; unknown/absent values default to account status. Preserve explicit POST confirmation, fixed destinations and no raw-token logging. Documentation no longer claims custom email templates are the only supported path. Real code redemption and email delivery are not inferred from mocked tests or a dummy-link preview.
+
+## D29 — Local rendering proof (20 October 2026)
+
+Implement T04 with Remotion/player/CLI 4.0.537, bundled Inter 5.2.8 (OFL), and CLI-compatible Zod 4.5.4. Current registry peer metadata accepts the installed React version; local dependency audits reported zero vulnerabilities. Individual portfolio use qualifies under the current [Remotion license](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md). No paid or cloud service was introduced.
+
+The proof uses a fixed validated process scene, strict format-only props and original synthetic timing. It deliberately renders silent video and visibly labels this limitation; it does not invent ElevenLabs timing or adopt another speech provider. Full CompositionV1 constraints remain unchanged. A thin isolated preview reuses the export component; no dashboard or hosted generation endpoint is built ahead of T05. See LOCAL_RENDERING.md for packages, commands, measured exports and limitations.

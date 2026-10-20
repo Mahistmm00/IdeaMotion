@@ -2,7 +2,7 @@
 
 A $0 portfolio project for narrated educational motion-graphics videos with synchronized captions, vertical/horizontal export, and a simple four-step creator workflow.
 
-**Current status:** T01 scaffold and T02 shared schemas/sample fixtures are implemented; see [progress](docs/PROGRESS.md) for verification. The responsive starter page is a concept preview, not a working video generator. T03 authentication code and local SQL policy checks are prepared; hosted Supabase setup and verification remain pending. Deployment has not started. There is no public app URL yet.
+**Current status:** T01–T02 and the T04 local one-scene rendering proof are implemented. Auth flows were confirmed by the user; broader hosted RLS/Storage/session-refresh checks remain open. Try [the rendering preview](http://localhost:3000/render-preview) and see [local rendering](docs/LOCAL_RENDERING.md). No live AI generation, hosted render or public deployment is claimed.
 
 ## Run locally
 
@@ -19,7 +19,7 @@ Open [localhost:3000](http://localhost:3000). The preview and local tests requir
 npm run lint        # Biome lint and formatting, zero warnings
 npm run format      # Apply formatting and safe lint fixes
 npm run typecheck   # Generate Next.js route types and check TypeScript
-npm test           # 75 local schema, timing, auth-action and SQL policy tests
+npm test           # 83 local schema, timing, auth-action and SQL policy tests
 npm run build      # Production build
 npm start          # Serve the production build
 ```
@@ -37,7 +37,7 @@ docs/                Product, design, architecture, contracts, and task progress
 artifacts/           Design references and concept media; not runtime application code
 ```
 
-The `@/*` import alias maps to `src/*`. Add feature modules as their implementation tasks begin; there are no unused provider SDKs or speculative service abstractions. Fonts currently use local system fallbacks, with no remote font request at build time.
+The `@/*` import alias maps to `src/*`. Add feature modules as their implementation tasks begin; there are no unused provider SDKs or speculative service abstractions. The application shell uses system fonts; the renderer bundles Inter locally, without a remote font request.
 
 ## Documentation
 
@@ -56,7 +56,7 @@ Start with the [documentation index](docs/README.md) and [PRD](docs/PRD.md). AI 
 
 Selected stack: Next.js/TypeScript/Node.js, Supabase Auth/Postgres/Storage, Vercel Hobby/Sandbox, Inngest Free, Remotion, Gemini, and ElevenLabs timing with custom synchronization logic. Provider eligibility and hosted feasibility must be verified before claiming working integrations.
 
-T03 code is prepared. Next, configure one Free Supabase development project using the auth setup guide and verify owner email, sessions, ownership and private Storage. Hosted auth is not yet proven; the thin rendering feasibility slice still precedes the full dashboard. See the implementation checklist for dependencies.
+Next is T05: verify remaining hosted auth/storage gates and prove real ElevenLabs timing plus hosted rendering, upload and signed playback within verified free allowances. The full dashboard follows this feasibility gate. See the implementation checklist for dependencies.
 
 
 ## Git workflow
