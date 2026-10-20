@@ -1,0 +1,53 @@
+# Decision log
+
+**Updated:** 19 October 2026. Confirmed product decisions and implementation defaults are distinguished below. Entries do not create provider access or authorize payments.
+
+| ID | Decision | Status / reason | Authority |
+|---|---|---|---|
+| D01 | Portfolio/resume objective; $0 services/infrastructure | Confirmed; no paid business platform requirements | User; PRD sections 2–3, 18 |
+| D02 | Four creator stages with combined script/storyboard | Confirmed; low-complexity workflow | User; PRD sections 7–12 |
+| D03 | Educational motion graphics and AI voiceover | Confirmed; explain relationships rather than cinematic generation | User; PRD section 13 |
+| D04 | Vertical and horizontal, 1080p MP4 | Confirmed formats; 30 fps/encoding is implementation default pending benchmark | User; PRD section 11 |
+| D05 | Automatic 60–90 seconds; optional target in range | Planning default from agreed PRD; no mandatory presets | PRD sections 9, 11 |
+| D06 | Supabase Auth/Postgres/Storage; exclude MongoDB/Better Auth/R2/GCS | Confirmed consolidation | User reference-stack selection |
+| D07 | Next.js/TypeScript/Node.js on Vercel; Remotion + Sandbox | Confirmed selected direction; free feasibility not yet proven | PRD section 6; architecture |
+| D08 | Inngest Free orchestration/scheduling | Selected direction; no paid compute or extra queue | PRD sections 6, 14 |
+| D09 | ElevenLabs timing + our own synchronization | Confirmed; no separate alignment provider | User; video pipeline |
+| D10 | Gemini eligible free model | Selected provider; exact model unresolved until verified | PRD section 25 |
+| D11 | Public samples and approved-user live use | Confirmed budget protection; approval is simple server-controlled flag | PRD section 4 |
+| D12 | GitHub OAuth, English-first, one visual system | Implementation defaults; validate callbacks/voices, record actual tokens later | PRD sections 4, 9 |
+| D13 | Live Instagram conditional; simulation explicit | Scope qualification; do not claim fake posts | PRD sections 5, 12 |
+| D14 | Seven-day scheduling window, bounded late retry | Implementation defaults within PRD; no publishing SLA | PRD section 12 |
+| D15 | Versioned immutable approval, pinned reviewed media | Required correctness; safe revisions/schedules | PRD sections 15–16 |
+| D16 | Short server steps and direct sandbox-to-Storage upload | Implementation contract; avoid request timeouts/body limits | API/workflow and database guides |
+| D17 | Explicit render-review endpoint | Domain clarification; supports existing Ready action, no extra user stage | API/workflow guide |
+| D18 | No microservice fleet, custom billing/analytics, enterprise framework | Confirmed simplicity boundary | User; root AGENTS.md |
+| D19 | Separate successful content from renderer cleanup; hold global claim until stopped | Selected design; prevents hidden overlapping compute | System design sections 7–8; database claim/cleanup fields |
+| D20 | Path-specific signed uploads to Storage, no broad key in sandbox | Selected design supported by official upload APIs; actual protocol tested at T05 | System design section 10 |
+| D21 | Bounded HTTP UI polling; durable waits for render progress | Selected simplicity decision; no Realtime/WebSocket requirement | System design section 13 |
+| D22 | Explicit job revision/attempt separation and submission idempotency fields | Contract reconciliation; safe stale update handling | Database and API specifications |
+| D23 | IdeaMotion name and Violet & Peach theme | User-approved; supersedes Explain Studio/graphite-lime visual references; no new branding-kit feature | User naming/theme approval; UI/UX and Stitch reference |
+| D24 | Signature public landing hero and visible four-step flow | User-requested; part of public product presentation, not a fifth creator stage | UI/UX specification |
+| D25 | Expanded authentication designs include email/password signup and recovery | User requested all auth pages; supersedes D12 GitHub-only UI default. Supabase remains selected; $0 email-delivery feasibility must be verified before implementation | PRD section 4; UI/UX; setup guide |
+
+## Unresolved checks
+
+### D26 — T01 foundation tooling (20 October 2026)
+
+Implemented Next.js **16.4.2**, React **19.3.1**, Tailwind CSS **4.3.3**, TypeScript **5.9.3**, Vitest **5.0.5**, and Biome **2.5.15** on Node **24.14.0** / npm **11.9.0**. Package versions and peer/engine constraints were checked against the npm registry during implementation; the lockfile is the exact dependency record. See [Next.js installation](https://nextjs.org/docs/app/getting-started/installation) and [Biome setup](https://biomejs.dev/installation/quick-start/).
+
+Biome replaces the attempted ESLint setup: the React plugin did not support ESLint 10, compatible ESLint 9 was marked unsupported, and the Next ESLint dependency chain carried five high-severity audit findings. Removing that chain yielded zero audit findings at installation. No forced security downgrade or ignored peer constraints were retained. TypeScript 5.9.3 provides a conservative supported foundation; newer majors are unnecessary for this scaffold. These are local development tools, with no new infrastructure or paid service. Empty-suite test allowance lasts only until T02. Framework agent-rule generation is disabled to preserve the curated root instructions. Current validation and limitations are in [progress](PROGRESS.md).
+
+## Remaining provider checks
+
+Future provider SDK versions, Gemini model, ElevenLabs voice/model/eligibility, actual free account caps/reset periods, encoder bitrate/file-size quality, sandbox auth/upload implementation, polling/deadlines, final UI accessibility, and live Meta access. Resolve in the task that needs them using current official docs and measured evidence. Do not turn uncertainty into guessed SDK calls or invented test results.
+
+## New-entry format
+
+For a material change, add ID/date, decision, confirmed/default/verified status, concrete reason, affected docs/contracts, evidence, and any previous decision superseded. Routine internal naming needs no lengthy architectural proposal. Scope/budget changes require user direction; implementation choices within scope can be decided and recorded autonomously.
+
+## D27 — T02 versioned validation and honest fixtures (20 October 2026)
+
+Implemented Zod **4.6.7** after checking its current npm version and [official schema API](https://zod.dev/api). Runtime schema validation is shared; database ownership, genuine approval, stored byte/hash validation and provider eligibility remain separate trusted checks. Bounded component-specific fields replace arbitrary generated visuals. Scene narration (2,000 characters), display text (300), entities (12), connections (20), and cue count/duration (24 / 0.1–5 seconds) are initial internal guardrails, not provider limits. Complete plan defaults remain 4–10 scenes and 60–90 seconds from the PRD.
+
+Fixtures are original CC0 text/synthetic timing data with no included audio/video. Reference paths and audio hashes are placeholders; factory provenance states media is unavailable. Width-aware caption segmentation and live alignment/byte processing remain future renderer/adapter tasks. Pure phrase/frame functions provide deterministic boundary coverage now without new services. See SHARED_CONTRACTS.md and PROGRESS.md for current contracts, tests and limits. No budget or product-scope change.

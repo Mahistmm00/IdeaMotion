@@ -1,0 +1,32 @@
+# Dependencies and build outputs
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Credentials and provider tooling
+.env*
+!.env.example
+.vercel/
+*.pem
+*.key
+
+# Tests and local logs
+coverage/
+playwright-report/
+test-results/
+*.log
+.DS_Store
+Thumbs.db
+
+# Generated media stays out of source control; keep source assets explicit.
+artifacts/**/*.mp4
+artifacts/**/*.webm
+artifacts/**/*.wav
+artifacts/**/*.mp3
+artifacts/**/frames/
+tmp/
+.cache/

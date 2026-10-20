@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Publish",
+    "state": "Content present",
+    "portfolioFooter": true,
+    "remainingFlags": []
+  },
+  {
+    "name": "Schedule Management",
+    "state": "Content present",
+    "portfolioFooter": true,
+    "remainingFlags": []
+  },
+  {
+    "name": "Publication Result",
+    "state": "Content present",
+    "portfolioFooter": true,
+    "remainingFlags": []
+  },
+  {
+    "name": "Settings",
+    "state": "Content present",
+    "portfolioFooter": true,
+    "remainingFlags": []
+  },
+  {
+    "name": "Verify Email",
+    "state": "Content present",
+    "portfolioFooter": false,
+    "remainingFlags": []
+  },
+  {
+    "name": "Access Status",
+    "state": "Content present",
+    "portfolioFooter": true,
+    "remainingFlags": []
+  },
+  {
+    "name": "Authentication Recovery",
+    "state": "Content present",
+    "portfolioFooter": true,
+    "remainingFlags": []
+  },
+  {
+    "name": "Unavailable",
+    "state": "Content present",
+    "portfolioFooter": true,
+    "remainingFlags": []
+  },
+  {
+    "name": "Projects Empty",
+    "state": "Content present",
+    "portfolioFooter": false,
+    "remainingFlags": [
+      "GPU Capacity",
+      "© 2025 IdeaMotion Studio Inc. All rights reserved."
+    ]
+  },
+  {
+    "name": "Generation Recovery",
+    "state": "Content present",
+    "portfolioFooter": false,
+    "remainingFlags": [
+      "GPU Capacity"
+    ]
+  },
+  {
+    "name": "Capacity Unavailable",
+    "state": "Content present",
+    "portfolioFooter": false,
+    "remainingFlags": [
+      "GPU Capacity",
+      "© 2025 IdeaMotion Studio Inc. All rights reserved."
+    ]
+  }
+]

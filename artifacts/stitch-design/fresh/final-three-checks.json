@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Projects Empty",
+    "contentPresent": true,
+    "footer": true,
+    "oldFooterOrGPU": false
+  },
+  {
+    "name": "Generation Recovery",
+    "contentPresent": true,
+    "footer": true,
+    "oldFooterOrGPU": false
+  },
+  {
+    "name": "Capacity Unavailable",
+    "contentPresent": true,
+    "footer": true,
+    "oldFooterOrGPU": false
+  }
+]

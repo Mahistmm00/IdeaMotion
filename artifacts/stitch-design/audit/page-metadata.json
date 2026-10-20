@@ -1,0 +1,1666 @@
+[
+  {
+    "name": "Projects",
+    "bg": "rgb(240, 234, 251)",
+    "buttons": [
+      "notifications",
+      "crop_16_9\n16:9 Landscape",
+      "crop_9_16\n9:16 Shorts",
+      "schedule\nAuto: 60–90 sec\nexpand_more",
+      "psychology\nTone: Clear & Engaging\nexpand_more",
+      "Start with Idea\narrow_forward",
+      "All (8)",
+      "Completed (5)",
+      "In Progress (3)",
+      "play_arrow",
+      "edit\nOpen",
+      "content_copy",
+      "ios_share",
+      "play_arrow",
+      "edit\nOpen",
+      "content_copy",
+      "ios_share",
+      "format_list_bulleted",
+      "edit_note\nContinue Plan",
+      "content_copy",
+      "delete_outline"
+    ],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "Projects"
+      },
+      {
+        "href": "#",
+        "text": "Create video\nAI"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      }
+    ]
+  },
+  {
+    "name": "Idea",
+    "bg": "rgb(240, 234, 251)",
+    "buttons": [
+      "notifications",
+      "add\nReal-world example",
+      "add\nStep-by-step breakdown",
+      "add\nEveryday analogy",
+      "\"Emphasize the depletion zone more\"",
+      "\"Add a 10s teaser on efficiency limits\"",
+      "\"Make tone more conversational\"",
+      "arrow_upward",
+      "Horizontal\n16:9 Landscape",
+      "Vertical\n9:16 Shorts/Reels",
+      "High School Physics\ncheck",
+      "General Curious",
+      "Undergraduate",
+      "Industry Professional",
+      "Engaging & Lucid",
+      "Documentary Style",
+      "Conversational",
+      "Formal Academic",
+      "play_arrow",
+      "Change",
+      "Create Plan\narrow_forward"
+    ],
+    "font": "Inter",
+    "inputs": [
+      {
+        "label": "Reply or add specific scientific requirements...",
+        "type": "text"
+      },
+      {
+        "label": "duration-slider",
+        "type": "range"
+      }
+    ],
+    "links": [
+      {
+        "href": "#",
+        "text": "Projects"
+      },
+      {
+        "href": "#",
+        "text": "Create video\nAI"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      }
+    ]
+  },
+  {
+    "name": "Storyboard",
+    "bg": "rgb(18, 19, 22)",
+    "buttons": [
+      "notifications",
+      "ios_share\nExport Script",
+      "auto_awesome\nApprove & Generate Video →",
+      "Split View",
+      "Script Only",
+      "Visuals Only",
+      "fullscreen",
+      "fullscreen",
+      "fullscreen",
+      "bolt\nMake narration simpler",
+      "psychology\nFocus on key concepts",
+      "lightbulb\nAdd everyday analogy",
+      "refresh\nUpdate Plan",
+      "auto_awesome\nApprove & Generate Video →"
+    ],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "Projects"
+      },
+      {
+        "href": "#",
+        "text": "Create video\nAI"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      }
+    ]
+  },
+  {
+    "name": "Generating",
+    "bg": "rgb(240, 234, 251)",
+    "buttons": [
+      "notifications",
+      "Run in background",
+      "Cancel generation"
+    ],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "Projects"
+      },
+      {
+        "href": "#",
+        "text": "Create video\nAI"
+      },
+      {
+        "href": "#",
+        "text": "Templates"
+      }
+    ]
+  },
+  {
+    "name": "Video Review",
+    "bg": "rgb(240, 234, 251)",
+    "buttons": [
+      "notifications",
+      "download\nDownload MP4",
+      "Ready to Publish\narrow_forward",
+      "pause",
+      "replay_5",
+      "forward_5",
+      "volume_up",
+      "aspect_ratio\n16:9 Landscape\nexpand_more",
+      "fullscreen",
+      "edit\nEdit Script Line",
+      "refresh",
+      "content_copy",
+      "01 Intro",
+      "02 Doping",
+      "03 Junction (Active)",
+      "04 Power",
+      "05 Output",
+      "laptop_chromebook\n16:9 Landscape",
+      "smartphone\n9:16 Shorts/Reel",
+      "Apply changes",
+      "add_photo_alternate",
+      "mic",
+      "Update Video\narrow_upward",
+      "\"Add 3D camera pan\"",
+      "\"Simplify technical terms\"",
+      "\"Change background mood\"",
+      "download\nDownload MP4",
+      "Publish\narrow_forward"
+    ],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "Projects"
+      },
+      {
+        "href": "#",
+        "text": "Create video\nAI"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      }
+    ]
+  },
+  {
+    "name": "Publish",
+    "bg": "rgb(18, 19, 22)",
+    "buttons": [
+      "notifications",
+      "aspect_ratio",
+      "favorite",
+      "chat_bubble",
+      "send",
+      "bookmark",
+      "add\nConnect Instagram",
+      "auto_fix_high\nAI Polish",
+      "+ #solarpower",
+      "+ #physics101",
+      "+ #engineering",
+      "+ #scienceexplained",
+      "+ #photovoltaic",
+      "Schedule Simulated Post\narrow_forward"
+    ],
+    "font": "Inter",
+    "inputs": [
+      {
+        "label": "Enter an arresting hook title...",
+        "type": "text"
+      },
+      {
+        "label": "",
+        "type": "radio"
+      },
+      {
+        "label": "",
+        "type": "radio"
+      },
+      {
+        "label": "sched-date",
+        "type": "text"
+      },
+      {
+        "label": "sched-time",
+        "type": "text"
+      }
+    ],
+    "links": [
+      {
+        "href": "#",
+        "text": "Projects"
+      },
+      {
+        "href": "#",
+        "text": "Create video\nAI"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#download-master",
+        "text": "arrow_circle_down\nDownload MP4 (1080p)"
+      }
+    ]
+  },
+  {
+    "name": "Home",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "play_arrow\nWatch an example",
+      "aspect_ratio\n16:9 Landscape",
+      "smartphone\n9:16 Shorts/Reels",
+      "pause",
+      "replay_10",
+      "forward_10",
+      "closed_caption",
+      "settings",
+      "fullscreen",
+      "close"
+    ],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "How it works"
+      },
+      {
+        "href": "#",
+        "text": "Examples"
+      },
+      {
+        "href": "#",
+        "text": "Features"
+      },
+      {
+        "href": "#",
+        "text": "Sign in"
+      },
+      {
+        "href": "#",
+        "text": "Create a video"
+      },
+      {
+        "href": "#",
+        "text": "Create your first video\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "Explore full explainer library\nchevron_right"
+      },
+      {
+        "href": "#",
+        "text": "Create your first video →"
+      },
+      {
+        "href": "#",
+        "text": "How it works"
+      },
+      {
+        "href": "#",
+        "text": "Features"
+      },
+      {
+        "href": "#",
+        "text": "Examples"
+      },
+      {
+        "href": "#",
+        "text": "Video Studio"
+      },
+      {
+        "href": "#",
+        "text": "Templates"
+      },
+      {
+        "href": "#",
+        "text": "Pricing"
+      },
+      {
+        "href": "#",
+        "text": "Sign In"
+      },
+      {
+        "href": "#",
+        "text": "Privacy Policy"
+      },
+      {
+        "href": "#",
+        "text": "Terms of Service"
+      }
+    ]
+  },
+  {
+    "name": "Sign in",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "Clean",
+      "Loading",
+      "Inline Errors",
+      "visibility",
+      "login\nSign in"
+    ],
+    "font": "Inter",
+    "inputs": [
+      {
+        "label": "you@institution.edu",
+        "type": "email"
+      },
+      {
+        "label": "••••••••••••",
+        "type": "password"
+      },
+      {
+        "label": "remember-me",
+        "type": "checkbox"
+      }
+    ],
+    "links": [
+      {
+        "href": "#",
+        "text": "motion_photos_on\nIdeaMotion\nCreative Studio"
+      },
+      {
+        "href": "#",
+        "text": "Back to home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "person"
+      },
+      {
+        "href": "#",
+        "text": "arrow_back\nReturn to Studio Home"
+      },
+      {
+        "href": "#",
+        "text": "Forgot password?"
+      },
+      {
+        "href": "#",
+        "text": "Create an account"
+      },
+      {
+        "href": "#",
+        "text": "Explore sample explainers\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "← Back to home"
+      },
+      {
+        "href": "#",
+        "text": "Home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Privacy"
+      },
+      {
+        "href": "#",
+        "text": "Terms"
+      }
+    ]
+  },
+  {
+    "name": "Sign up",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "visibility",
+      "visibility",
+      "Create account\narrow_forward"
+    ],
+    "font": "Inter",
+    "inputs": [
+      {
+        "label": "Dr. Elena Vance",
+        "type": "text"
+      },
+      {
+        "label": "elena.vance@lab.institute.org",
+        "type": "email"
+      },
+      {
+        "label": "Create a master passphrase",
+        "type": "password"
+      },
+      {
+        "label": "Repeat your password",
+        "type": "password"
+      }
+    ],
+    "links": [
+      {
+        "href": "#",
+        "text": "motion_photos_on\nIdeaMotion\nCreative Studio"
+      },
+      {
+        "href": "#",
+        "text": "Back to home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "person"
+      },
+      {
+        "href": "#",
+        "text": "Already have an account?\nSign in"
+      },
+      {
+        "href": "#",
+        "text": "Explore sample videos without an account\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "Home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Privacy"
+      },
+      {
+        "href": "#",
+        "text": "Terms"
+      }
+    ]
+  },
+  {
+    "name": "Forgot password",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "State A: Request",
+      "State B: Neutral Success",
+      "Use passkey",
+      "Send reset link\nsend",
+      "Resend now",
+      "edit\nTry another email"
+    ],
+    "font": "Inter",
+    "inputs": [
+      {
+        "label": "name@institution.edu",
+        "type": "email"
+      }
+    ],
+    "links": [
+      {
+        "href": "#",
+        "text": "motion_photos_on\nIdeaMotion\nCreative Studio"
+      },
+      {
+        "href": "#",
+        "text": "Back to home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "person"
+      },
+      {
+        "href": "#",
+        "text": "arrow_back\nBack to home"
+      },
+      {
+        "href": "#",
+        "text": "arrow_back\n← Back to sign in"
+      },
+      {
+        "href": "#",
+        "text": "Back to home"
+      },
+      {
+        "href": "#",
+        "text": "Return to sign in"
+      },
+      {
+        "href": "#",
+        "text": "Contact Studio Security Desk\nopen_in_new"
+      },
+      {
+        "href": "#",
+        "text": "Home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Privacy"
+      },
+      {
+        "href": "#",
+        "text": "Terms"
+      }
+    ]
+  },
+  {
+    "name": "Verify email",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "edit\nChange",
+      "Save & Resend",
+      "Cancel",
+      "send\nResend verification email",
+      "close",
+      "expand_more",
+      "send_time_extension\nSend fresh link"
+    ],
+    "font": "Inter",
+    "inputs": [
+      {
+        "label": "youremail@studio.domain",
+        "type": "email"
+      },
+      {
+        "label": "Enter your registered studio email",
+        "type": "email"
+      }
+    ],
+    "links": [
+      {
+        "href": "#",
+        "text": "motion_photos_on\nIdeaMotion\nCreative Studio"
+      },
+      {
+        "href": "#",
+        "text": "Back to home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "person"
+      },
+      {
+        "href": "#",
+        "text": "keyboard_backspace\nBack to sign up"
+      },
+      {
+        "href": "#",
+        "text": "Already verified? Sign in to IdeaMotion\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "headset_mic\nContact Support"
+      },
+      {
+        "href": "#",
+        "text": "domain\nDomain Whitelist Guide"
+      },
+      {
+        "href": "#",
+        "text": "Home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Privacy"
+      },
+      {
+        "href": "#",
+        "text": "Terms"
+      }
+    ]
+  },
+  {
+    "name": "Password updated",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "motion_photos_on\nIdeaMotion\nCreative Studio"
+      },
+      {
+        "href": "#",
+        "text": "Back to home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "person"
+      },
+      {
+        "href": "#",
+        "text": "Sign in to IdeaMotion\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "interests\nExplore public samples"
+      },
+      {
+        "href": "#",
+        "text": "home\nReturn to home"
+      },
+      {
+        "href": "#",
+        "text": "View sample motion gallery\nchevron_right"
+      },
+      {
+        "href": "#",
+        "text": "Home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Privacy"
+      },
+      {
+        "href": "#",
+        "text": "Terms"
+      }
+    ]
+  },
+  {
+    "name": "Reset password",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "verified_user\nValid Session",
+      "history_toggle_off\nExpired Link",
+      "visibility",
+      "visibility",
+      "lock_reset\nSave new password"
+    ],
+    "font": "Inter",
+    "inputs": [
+      {
+        "label": "••••••••••••",
+        "type": "password"
+      },
+      {
+        "label": "••••••••••••",
+        "type": "password"
+      }
+    ],
+    "links": [
+      {
+        "href": "#",
+        "text": "motion_photos_on\nIdeaMotion\nCreative Studio"
+      },
+      {
+        "href": "#",
+        "text": "Back to home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "person"
+      },
+      {
+        "href": "#",
+        "text": "Cancel & Sign in"
+      },
+      {
+        "href": "#",
+        "text": "send_time_extension\nRequest a new reset link"
+      },
+      {
+        "href": "#",
+        "text": "arrow_back\nReturn to sign in"
+      },
+      {
+        "href": "#",
+        "text": "Home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Privacy"
+      },
+      {
+        "href": "#",
+        "text": "Terms"
+      }
+    ]
+  },
+  {
+    "name": "Access status",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "logout\nSign out"
+    ],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "motion_photos_on\nIdeaMotion\nCreative Studio"
+      },
+      {
+        "href": "#",
+        "text": "Back to home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "person"
+      },
+      {
+        "href": "#",
+        "text": "Explore sample videos\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "arrow_back\nReturn to home"
+      },
+      {
+        "href": "#",
+        "text": "Home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Privacy"
+      },
+      {
+        "href": "#",
+        "text": "Terms"
+      }
+    ]
+  },
+  {
+    "name": "Authentication recovery",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "Expired Link",
+      "Verifying Callback",
+      "Inactivity Lock",
+      "Retry sign in\narrow_forward",
+      "visibility",
+      "lock_open\nResume Workspace",
+      "Switch account"
+    ],
+    "font": "Inter",
+    "inputs": [
+      {
+        "label": "recovery-pwd",
+        "type": "password"
+      }
+    ],
+    "links": [
+      {
+        "href": "#",
+        "text": "motion_photos_on\nIdeaMotion\nCreative Studio"
+      },
+      {
+        "href": "#",
+        "text": "Back to home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "person"
+      },
+      {
+        "href": "#",
+        "text": "play_circle\nReturn to sample explainers"
+      },
+      {
+        "href": "#",
+        "text": "Cancel and retry credentials"
+      },
+      {
+        "href": "#",
+        "text": "Forgot password?"
+      },
+      {
+        "href": "#",
+        "text": "Workspace Preferences"
+      },
+      {
+        "href": "#",
+        "text": "Resend email link\nchevron_right"
+      },
+      {
+        "href": "#",
+        "text": "Review devices\nchevron_right"
+      },
+      {
+        "href": "#",
+        "text": "Contact support\nchevron_right"
+      },
+      {
+        "href": "#",
+        "text": "Home"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Privacy"
+      },
+      {
+        "href": "#",
+        "text": "Terms"
+      }
+    ]
+  },
+  {
+    "name": "Samples",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "All Topics",
+      "Physics",
+      "Earth Science",
+      "Renewable Energy",
+      "play_circle\nWatch 30s teaser",
+      "play_circle\nWatch 30s teaser",
+      "play_circle\nWatch 30s teaser",
+      "close",
+      "Close Preview"
+    ],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "motion_mode\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "Create a video"
+      },
+      {
+        "href": "#",
+        "text": "person"
+      },
+      {
+        "href": "#",
+        "text": "Open sample\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "Open sample\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "Open sample\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "lock_open\nSign in to create custom explainers"
+      },
+      {
+        "href": "#",
+        "text": "home\nReturn to Home"
+      },
+      {
+        "href": "#",
+        "text": "Open Full Workspace\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "Video Studio"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      }
+    ]
+  },
+  {
+    "name": "Sample workspace",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "download\nDownload sample MP4 (1080p)",
+      "smart_display\nInteractive Video Player",
+      "view_timeline\nCombined Storyboard & Script (6 Scenes)",
+      "crop_16_9\n16:9 Landscape",
+      "crop_portrait\n9:16 Vertical",
+      "pause",
+      "replay_10",
+      "forward_10",
+      "fullscreen",
+      "wb_sunny\n00:00\n01: Photon Stream\nSunlight entry",
+      "scatter_plot\n00:24\n02: Silicon Junction\nP-N Lattice • Active",
+      "electric_bolt\n00:44\n03: Electron Drift\nFree charge separation",
+      "grid_4x4\n00:58\n04: Conductor Grid\nCurrent collection",
+      "transform\n01:06\n05: Inverter Unit\nDC to AC wave",
+      "home\n01:14\n06: Household Grid\nPower distribution",
+      "play_arrow",
+      "tune\nRevisions disabled in sample preview"
+    ],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "motion_mode\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "Create a video"
+      },
+      {
+        "href": "#",
+        "text": "person"
+      },
+      {
+        "href": "#",
+        "text": "folder_open\nSamples"
+      },
+      {
+        "href": "#",
+        "text": "Sign in to create your own\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "Sign in to customize this explainer\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "arrow_back\nMore samples"
+      },
+      {
+        "href": "#",
+        "text": "rocket_launch\nStart Blank Video"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "Video Studio"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      }
+    ]
+  },
+  {
+    "name": "Settings",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "badge\nProfile & Access",
+      "cell_tower\nSimulated Publishing",
+      "tune\nPreferences",
+      "Live Simulation",
+      "Offline Mode",
+      "link_off\nDisconnect Instagram",
+      "Save Preferences",
+      "logout\nSign Out of IdeaMotion",
+      "delete_sweep\nClear Local Workspace Cache",
+      "Cancel",
+      "Disconnect Channel",
+      "Stay in Studio",
+      "Sign Out"
+    ],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "motion_mode\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "Create a video"
+      },
+      {
+        "href": "#",
+        "text": "person"
+      },
+      {
+        "href": "#",
+        "text": "Enter Studio Workspace\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "Video Studio"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      }
+    ]
+  },
+  {
+    "name": "Capacity unavailable",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "play_circle\nCreate a video",
+      "Status A: Queues Paused",
+      "Status B: Safe & Saved",
+      "Status C: Recheck (Online)",
+      "data_object\nView cached script",
+      "autorenew\nRetry availability"
+    ],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "IdeaMotion"
+      },
+      {
+        "href": "#",
+        "text": "Projects"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "person"
+      },
+      {
+        "href": "#",
+        "text": "folder\nProjects"
+      },
+      {
+        "href": "#",
+        "text": "CRISPR-Cas9 Gene Targeting"
+      },
+      {
+        "href": "#",
+        "text": "arrow_back\nBack to storyboard"
+      },
+      {
+        "href": "#",
+        "text": "visibility\nWatch pre-rendered"
+      },
+      {
+        "href": "#",
+        "text": "View library (18)\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "Privacy"
+      },
+      {
+        "href": "#",
+        "text": "Terms"
+      }
+    ]
+  },
+  {
+    "name": "Projects empty",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "play_circle\nCreate a video",
+      "Fresh Workspace",
+      "Storage Cap (5/5)",
+      "Sync Interrupted",
+      "delete\nDelete Dialog",
+      "edit\nRename Dialog",
+      "Dismiss",
+      "sync\nRetry connection",
+      "Create your first explainer\narrow_forward",
+      "Use this prompt\narrow_forward",
+      "Use this prompt\narrow_forward",
+      "Use this prompt\narrow_forward",
+      "Keep project",
+      "Permanently delete",
+      "close",
+      "Cancel",
+      "Save title & start studio"
+    ],
+    "font": "Inter",
+    "inputs": [
+      {
+        "label": "project-title-input",
+        "type": "text"
+      },
+      {
+        "label": "",
+        "type": "radio"
+      },
+      {
+        "label": "",
+        "type": "radio"
+      }
+    ],
+    "links": [
+      {
+        "href": "#",
+        "text": "IdeaMotion"
+      },
+      {
+        "href": "#",
+        "text": "Projects"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "person"
+      },
+      {
+        "href": "#",
+        "text": "auto_stories\nExplore sample gallery"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "Privacy"
+      },
+      {
+        "href": "#",
+        "text": "Terms"
+      }
+    ]
+  },
+  {
+    "name": "Generation recovery",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "play_circle\nCreate a video",
+      "Generation Interrupted (Safe Retry)",
+      "Cancel Requested by User",
+      "Version Conflict / Unsaved Script Changes",
+      "replay\nRetry video generation (Safe)",
+      "dashboard_customize\nReturn to storyboard & edit",
+      "delete_sweep\nDiscard interrupted run",
+      "difference\nCompare versions",
+      "restore\nReload approved storyboard",
+      "play_arrow",
+      "download\nDownload previous 1080p MP4"
+    ],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "IdeaMotion"
+      },
+      {
+        "href": "#",
+        "text": "Projects"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "person"
+      },
+      {
+        "href": "#",
+        "text": "folder_open\nProjects"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "Privacy"
+      },
+      {
+        "href": "#",
+        "text": "Terms"
+      }
+    ]
+  },
+  {
+    "name": "Publication result",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "notifications",
+      "verified\nImmediate Publish Result",
+      "schedule_send\nSimulated Scheduled Result",
+      "download\nDownload MP4 (1080p)"
+    ],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "motion_mode\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "text": "Projects"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "Create a video"
+      },
+      {
+        "href": "#",
+        "text": "folder_open\nProjects"
+      },
+      {
+        "href": "#",
+        "text": "Manage schedule"
+      },
+      {
+        "href": "#",
+        "text": "Re-format\narrow_forward"
+      },
+      {
+        "href": "#",
+        "text": "Back to projects"
+      },
+      {
+        "href": "#",
+        "text": "Create another"
+      },
+      {
+        "href": "#",
+        "text": "Documentation"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "Privacy"
+      },
+      {
+        "href": "#",
+        "text": "Terms"
+      }
+    ]
+  },
+  {
+    "name": "Unavailable",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "notifications",
+      "Resource Unavailable",
+      "Network Interrupted",
+      "Sandbox Node Maintenance",
+      "sync\nRetry sync",
+      "cached\nScan browser download history"
+    ],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "motion_mode\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "text": "Projects"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "Create a video"
+      },
+      {
+        "href": "#",
+        "text": "folder\nProjects"
+      },
+      {
+        "href": "#",
+        "text": "arrow_back\nBack to projects"
+      },
+      {
+        "href": "#",
+        "text": "video_library\nView samples"
+      },
+      {
+        "href": "#",
+        "text": "Return to IdeaMotion home"
+      },
+      {
+        "href": "#",
+        "text": "Explore all"
+      },
+      {
+        "href": "#",
+        "text": "0:15\nSaaS Micro-Explainer\nKinetic typography + UI mock\nplay_circle"
+      },
+      {
+        "href": "#",
+        "text": "0:30\nProduct Launch Teaser\nSpring physics & light leak\nplay_circle"
+      },
+      {
+        "href": "#",
+        "text": "0:45\nQuarterly Data Showcase\nAnimated graph presets\nplay_circle"
+      },
+      {
+        "href": "#",
+        "text": "Status map"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "Privacy"
+      },
+      {
+        "href": "#",
+        "text": "Terms"
+      }
+    ]
+  },
+  {
+    "name": "Schedule management",
+    "bg": "rgb(254, 247, 255)",
+    "buttons": [
+      "notifications",
+      "1. Default / Active Setup",
+      "2. Confirmation Dialog",
+      "3. Saved Schedule Detail",
+      "4. Cancel / Reschedule Modal",
+      "5. Unknown Status Variant",
+      "play_arrow",
+      "Change Target",
+      "#STEM",
+      "#PhysicsAnimation",
+      "#CleanTech",
+      "#SolarDynamics",
+      "#IdeaMotion",
+      "send_time_extension\nSchedule simulated post",
+      "Save draft schedule",
+      "Cancel & Modify",
+      "Confirm & Queue Simulation",
+      "event_busy\n                Cancel Schedule",
+      "edit_calendar\n                  Reschedule Slot",
+      "Preview in Feed Simulation",
+      "Keep Current Schedule",
+      "delete_sweep\n                Yes, Release Schedule Slot",
+      "Return to Editor",
+      "refresh\n                  Check status"
+    ],
+    "font": "Inter",
+    "inputs": [],
+    "links": [
+      {
+        "href": "#",
+        "text": "motion_mode\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "text": "Projects"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "Create a video"
+      },
+      {
+        "href": "#",
+        "text": "folder\nProjects"
+      },
+      {
+        "href": "#",
+        "text": "Solar Photovoltaic Dynamics"
+      },
+      {
+        "href": "#",
+        "text": "download\nDownload MP4 (1080p • 44.2 MB)"
+      },
+      {
+        "href": "#",
+        "text": "Back to review"
+      },
+      {
+        "href": "#",
+        "text": "Explore samples"
+      },
+      {
+        "href": "#",
+        "text": "Workspace"
+      },
+      {
+        "href": "#",
+        "text": "Settings"
+      },
+      {
+        "href": "#",
+        "text": "Privacy"
+      },
+      {
+        "href": "#",
+        "text": "Terms"
+      }
+    ]
+  }
+]

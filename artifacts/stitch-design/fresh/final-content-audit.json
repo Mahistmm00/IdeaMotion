@@ -1,0 +1,974 @@
+[
+  {
+    "name": "Home",
+    "id": "5e7d5c94beb84d7a953eee6d1610f235",
+    "status": "Canvas screenshot checked; live DOM unmounted"
+  },
+  {
+    "name": "Projects",
+    "id": "d5d4daeb6c3a47e5b857fd6a417374d9",
+    "status": "Canvas screenshot checked; live DOM unmounted"
+  },
+  {
+    "name": "Idea",
+    "id": "6e8a02be0af94f39aa5654e47e9e7531",
+    "status": "Canvas screenshot checked; live DOM unmounted"
+  },
+  {
+    "name": "Storyboard",
+    "id": "9414192849f844938fd546c0b4aa8068",
+    "status": "Canvas screenshot checked; live DOM unmounted"
+  },
+  {
+    "name": "Generating",
+    "id": "4fc0316c847c4169a804bea9100a2135",
+    "status": "Canvas screenshot checked; live DOM unmounted"
+  },
+  {
+    "name": "Video Review",
+    "id": "a86a99327ae8451aac551762f8e20533",
+    "status": "Canvas screenshot checked; live DOM unmounted"
+  },
+  {
+    "name": "Publish",
+    "id": "dc4393b4e1884417b2a9168e308999c4",
+    "status": "Content present",
+    "text": "auto_videocam\nIdeaMotion\nProjects\nCreate video\nSettings\nnotifications\nperson\ncheck\nStage 01\n1. Idea\ncheck\nStage 02\n2. Plan\ncheck\nStage 03\n3. Video\n4\nFINAL STEP\n4. Publish\nverified\nSolar Panels & Photovoltaics\nReady to Publish\n\nKinetic educational breakdown synthesized with micro-visual motion, pacing markers, and synced phonetic captions.\n\ncrop_portrait\nVertical 9:16 (Reels)\ncrop_16_9\nHorizontal 16:9\ninfo\n\nLayout rule: If horizontal selected, create vertical version then review — never silently crop to ensure visual clarity.\n\nplay_circle\nVertical Reel Preview\n1080p FHD • 9:16\n00:42 / 01:18\nbolt\nSolar Cell Kinetic\nINCOMING PHOTONS (hν)\nN-type Layer (Excess e⁻)\nP-N JUNCTION BARRIER\nP-type Layer (Holes h⁺)\ne⁻\ne⁻\ne⁻\nPOTENTIAL DRIFT: +0.62 V\n\n...photons dislodge electrons across the P-N barrier...\n\npause\n0:78\ndownload\nDirect Export\nStandalone rendered video asset\nReady\nDuration\n78s\nResolution\n1080 × 1920\nFile Size\n48 MB\nfile_download\nDownload 1080p MP4\ncheck_circle\nDownload works independently of Instagram / publishing simulation\nlab_profile\nExplicit Simulated Publishing Mode\nSANDBOX\n\nNo actual posts or external API calls are made. All publishing actions test delivery, layout aesthetics, and caption pacing safely in this sandbox.\n\nvideo_library\n@explainer_studio\nSimulated Educational Reel Destination\nDry Run Active\nPost Caption & Kinetic Summary\n184 / 2,200\nInsert tags:\n#cleanenergy\n#physics\n#education\n⚡ Energy\n🔬 STEM\nActive Topic Classifications\ntag\n#solarpower\ntag\n#photovoltaics\ntag\n#science\nadd\nAdd tag\ncloud_off\nSimulated connection check: Offline sandbox mode active\n\nDirect device download remains fully available with local rendering acceleration. No external credentials or tokens required.\n\nLocal Only\nsend\nPublish now (Simulated)\ncalendar_month\nSchedule for later\nverified_user\n\nDownload works independently. Your master 1080p video file is rendered and stored locally on your machine.\n\n© 2025 IdeaMotion Studio Inc.\n•\nIntelligent Educational Storytelling\nCreation Studio\nWorkspace\nPrivacy Policy\nTerms of Service",
+    "headings": [],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "Projects"
+      },
+      {
+        "href": "#",
+        "label": "Create video"
+      },
+      {
+        "href": "#",
+        "label": "Settings"
+      },
+      {
+        "href": "#",
+        "label": "Creation Studio"
+      },
+      {
+        "href": "#",
+        "label": "Workspace"
+      },
+      {
+        "href": "#",
+        "label": "Privacy Policy"
+      },
+      {
+        "href": "#",
+        "label": "Terms of Service"
+      }
+    ]
+  },
+  {
+    "name": "Schedule Management",
+    "id": "8b4cdca92a854001a6894a5244b73e79",
+    "status": "Content present",
+    "text": "auto_videocam\nIdeaMotion\nProjects\nCreate video\nSettings\nnotifications\nperson\nfolder\nProjects\nchevron_right\nSolar Panels & Photovoltaics\nchevron_right\nSchedule Management\nSimulated Publication Scheduler\nScheduled Simulation Pending\nhistory\nSimulation Logs\npush_pin\nPinned Reviewed Video Release\nverified\nMaster 1080p Rendered\n9:16\nplay_arrow\nPhysics & Clean Tech\n•\nReel Spec 1080×1920\nSolar Panels & Photovoltaics\n\n9:16 Vertical • 78s Duration • 24 scenes • High Bitrate H.264\n\nclosed_caption\nCaptions Baked\n•\ngraphic_eq\nAI Voice: Evelyn (Neutral Pro)\nlock_clock\nScheduled version unchanged after edits\n\nIf you make further changes to the storyboard, voice prompts, or captions, this scheduled release retains the reviewed version snapshot unless re-scheduled.\n\ntune\nDispatch Timing & Geo-Targeting\nAutomated Pipeline\ncalendar_today\nSimulated Date\nevent\nschedule\nSimulated Time\nexpand_more\npublic\nTarget Timezone\nAsia/Kolkata (IST)\nAmerica/New_York (EDT)\nEurope/London (BST)\nAsia/Tokyo (JST)\nunfold_more\nbolt\nResolved Local Time: 10:30 AM IST (UTC+05:30)\nMatches simulated viewer peak engagement hours across target geographic demographic.\ninsights\n+18% Peak Index\nSimulation Pipeline Pre-flight Check\nReady for Handshake\nMetadata & Staging (Passed)\nDistribution Worker Buffer (Allocated)\n10:30 AM IST (Queue Trigger)\nConfirm Simulated Schedule\nLive Mockup\nES\n@explainer_studio\ncheck_circle\nTarget: Simulated Instagram Reel\nmore_horiz\nevent_upcoming\nScheduled Slot\nOct 24, 2025 at 10:30 AM IST\nAsia/Kolkata\nnotes\nPost Caption Preview\n\nEver wondered how photons knock electrons loose inside a semiconductor? ☀️⚡ In this quick vertical deep-dive, we break down the photovoltaic effect and how rooftop silicon panels power whole cities.\n\n#CleanEnergy\n#SolarTech\n#IdeaMotion\n#STEMEducation\n#PhysicsExplainer\nbookmark_added\nSave schedule\nupdate\nReschedule\nevent_busy\nCancel\nsync_problem\nSimulation Queue: Status Verification\nwarning\nAmbiguous State\n\nUnknown outcome detected during last simulation pass. Instead of a blind retry, please verify queue state.\n\ntroubleshoot\nCheck status\nshield\nIdempotency Guard Active\narrow_back\nBack to Publish\ndashboard\nReturn to Projects\nSnapshot ID:\n#SNP-8902-SOLAR\n•\nVersion 2.4.0-rc\n© 2025 IdeaMotion Studio Inc.\n•\nIntelligent Educational Storytelling\nCreation Studio\nWorkspace\nPrivacy Policy\nTerms of Service",
+    "headings": [
+      "Simulated Publication Scheduler",
+      "Solar Panels & Photovoltaics",
+      "Dispatch Timing & Geo-Targeting",
+      "Confirm Simulated Schedule",
+      "Simulation Queue: Status Verification"
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "Projects"
+      },
+      {
+        "href": "#",
+        "label": "Create video"
+      },
+      {
+        "href": "#",
+        "label": "Settings"
+      },
+      {
+        "href": "#",
+        "label": "folder\nProjects"
+      },
+      {
+        "href": "#",
+        "label": "arrow_back\nBack to Publish"
+      },
+      {
+        "href": "#",
+        "label": "dashboard\nReturn to Projects"
+      },
+      {
+        "href": "#",
+        "label": "Creation Studio"
+      },
+      {
+        "href": "#",
+        "label": "Workspace"
+      },
+      {
+        "href": "#",
+        "label": "Privacy Policy"
+      },
+      {
+        "href": "#",
+        "label": "Terms of Service"
+      }
+    ]
+  },
+  {
+    "name": "Publication Result",
+    "id": "8cb28e267bda4c818ed16910467397bb",
+    "status": "Content present",
+    "text": "auto_videocam\nIdeaMotion\nProjects\nCreate video\nSettings\nnotifications\nperson\nscience\nSandbox Mode\n•\nJob ID #SIM-89412\nSimulated Run • No live credentials used\nauto_awesome\nverified\nVerification Pipeline Finished\nSimulation completed — nothing was posted\n\nYour educational explainer video has completed its simulated distribution run. No external accounts were touched or real API requests dispatched.\n\ntimer\nRender time\n1m 18s\nhd\nMaster resolution\n1080 × 1920 (9:16)\nformat_image_left\nMock handshake\nPassed (200 OK)\nmovie_edit\nSIMULATED DESTINATION\nInstagram Reel (@explainer_studio)\nschedule\nCompleted at 10:30:14 AM IST (Simulated Sandbox)\nPREVIEW ONLY • 01:18\nvolume_up\nPhotons (hν)\nAnti-reflective Coating\nN-type Layer (Extra e⁻)\nDepletion Electric Field (E-Field)\nP-type Layer (Holes h⁺)\ne⁻\n\n[freed negative charges] directed via built-in electric junction\n\n01:18\nComplete\nPhysics & Clean Tech\nKinetic Explainer\nHow Solar Panels Actually Convert Light to Flowing Current\nSIMULATED CAPTION & TAGS\n\nHow do solar panels actually turn sunlight into electricity? Here is a 78-second kinetic breakdown of photon bombardment, the silicon depletion layer, and why electrons are forced through the circuit! ☀️⚡ #STEM #PhysicsExplainer #CleanEnergy #IdeaMotion\n\nVoiceover Engine\nElena — Natural Studio (Neutral)\nMotion Script Engine\nVector Chalk Dynamic v2.4\nSubtitles & Timing\nEmbedded Burn-in (Synced)\ncheck_circle\nSafe sandbox run • 1080p MP4 master verified\nQueue & Variants\nevent_available\nImmediate Simulation\nCompleted Just Now\nSolar Photovoltaic Cell (9:16)\nTarget: @explainer_studio Reel\nUpcoming Scheduled Run\nQueued\nWater Cycle: Atmospheric Transport (9:16 Vertical)\nalarm\nTomorrow at 09:00 AM IST (Asia/Kolkata)\n\nSimulated preview will generate automatically and store artifacts in your Workspace.\n\nView in Schedule Management\narrow_forward\nSIMULATION DIAGNOSTICS\nExternal API calls:\n0 dispatched\nSocial Token authentication:\nSandbox stubbed\nVideo File Integrity:\nLossless Bitrate verified\nschool\nCurriculum Ready\n\nDiagrams adhere to open NGSS and CBSE standards for senior secondary science visuals.\n\ncloud_done\nReady to use anywhere\nYour finalized media is ready for download or further production.\ndownload\nDownload 1080p MP4\ngrid_view\nBack to projects\nadd_circle\nCreate another video\nlock\nStudio Sandbox Guarantee\n\nAll video files remain safely stored in your workspace. Download your video anytime for direct upload to your preferred LMS, classroom projector, or social channel. Simulated publishing ensures your visual story is flawlessly reviewed before anyone sees it.\n\nverified_user\n100% Client-Side Safe\n© 2025 IdeaMotion Studio Inc.\n•\nIntelligent Educational Storytelling\nCreation Studio\nWorkspace\nPrivacy Policy\nTerms of Service",
+    "headings": [
+      "\n                Simulation completed — nothing was posted\n              ",
+      "\n                    How Solar Panels Actually Convert Light to Flowing Current\n                  ",
+      "\n                  Water Cycle: Atmospheric Transport (9:16 Vertical)\n                ",
+      "\n              Studio Sandbox Guarantee\n            "
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "Projects"
+      },
+      {
+        "href": "#",
+        "label": "Create video"
+      },
+      {
+        "href": "#",
+        "label": "Settings"
+      },
+      {
+        "href": "#",
+        "label": "View in Schedule Management\narrow_forward"
+      },
+      {
+        "href": "#",
+        "label": "grid_view\nBack to projects"
+      },
+      {
+        "href": "#",
+        "label": "add_circle\nCreate another video"
+      },
+      {
+        "href": "#",
+        "label": "Creation Studio"
+      },
+      {
+        "href": "#",
+        "label": "Workspace"
+      },
+      {
+        "href": "#",
+        "label": "Privacy Policy"
+      },
+      {
+        "href": "#",
+        "label": "Terms of Service"
+      }
+    ]
+  },
+  {
+    "name": "Samples",
+    "id": "81043978af524cb59f4deee7e1b900a8",
+    "status": "Content present",
+    "text": "auto_videocam\nIdeaMotion\nProjects\nCreate video\nSettings\nnotifications\nperson\nauto_awesome\nCURATED EDUCATIONAL LIBRARY\nPrepared Samples\n\nExplore fully synthesized, curriculum-aligned educational explainer videos. Inspect keyframe storyboard diagrams, synced captions, and dual-format adaptations before creating your own.\n\nlock_open\nReady to craft your curriculum?\nSign in to create your own explainer\narrow_forward\nAll Samples (3)\nPhysics & Clean Tech\nEarth Sciences\nComparative Analysis\nSynced Vector Storyboards\n•\nFull 60-90s Micro-Curriculum\nplay_arrow\naspect_ratio\n16:9 Landscape & 9:16 Vertical\nAnti-reflective\nN-Type Layer (- electrons)\nP-N Barrier\nP-Type Layer (+ holes)\ne⁻\nPhysics & Clean Tech\nschedule\n78s (Auto 60-90s)\nSolar Panels & Photovoltaics\n\nHow light photons dislodge valence electrons across semiconductor P-N junctions to create steady electric current.\n\ngraphic_eq\nElena — Natural Studio (135 wpm)\nSynced Karaoke Captions\nOpen sample\narrow_forward\nplay_arrow\nphone_iphone\n9:16 Vertical Native • 16:9 Ready\nOcean Reservoir\nEvaporation ↑\nCondensation\nPrecipitation ↓\nWatershed Runoff\nEarth Science\nschedule\n68s (Auto 60-90s)\nThe Water Cycle: Atmospheric Transport\n\nFrom ocean surface thermal energy to mountain snowpack runoff—tracing moisture movement through phase changes.\n\nrecord_voice_over\nMarcus — Clear Academic\nSubtitles Baked & Synced\nOpen sample\narrow_forward\nplay_arrow\nsplitscreen\n16:9 Landscape • 9:16 Adapted\nVS\nSolar: Diurnal Peak\nWind: High Capacity\nComparative Analysis\nschedule\n84s (Auto 60-90s)\nSolar vs. Wind Energy\n\nDirect side-by-side comparison of capacity factors, geographical density, and seasonal intermittency in clean power grids.\n\npsychology\nDr. James — Warm Academic\nSplit Synchronous Graphics\nOpen sample\narrow_forward\nfact_check\nInspecting Pedagogical Scaffolding\n\nEach sample demonstrates active vocabulary highlighting, concept reinforcement loops, and strict 60–90 second narrative pacing.\n\nCurriculum-aligned preview\ndraw\nREADY FOR YOUR CLASSROOM OR PRODUCT\nReady to turn your own lesson plan or concept into an explainer?\n\nSign in to draft custom narration scripts, generate vector diagrams, and produce synchronized 1080p educational videos in minutes.\n\nlogin\nSign in to create\nfolder_special\nBrowse project library\nIdeaMotion — Portfolio demo\nHome\nSamples",
+    "headings": [
+      "\n            Prepared Samples\n          ",
+      "\n                Solar Panels & Photovoltaics\n              ",
+      "\n                The Water Cycle: Atmospheric Transport\n              ",
+      "\n                Solar vs. Wind Energy\n              ",
+      "Inspecting Pedagogical Scaffolding",
+      "\n            Ready to turn your own lesson plan or concept into an explainer?\n          "
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "Projects"
+      },
+      {
+        "href": "#",
+        "label": "Create video"
+      },
+      {
+        "href": "#",
+        "label": "Settings"
+      },
+      {
+        "href": "#",
+        "label": "Sign in to create your own explainer\narrow_forward"
+      },
+      {
+        "href": "#",
+        "label": "Open sample\narrow_forward"
+      },
+      {
+        "href": "#",
+        "label": "Open sample\narrow_forward"
+      },
+      {
+        "href": "#",
+        "label": "Open sample\narrow_forward"
+      },
+      {
+        "href": "#",
+        "label": "login\nSign in to create"
+      },
+      {
+        "href": "#",
+        "label": "folder_special\nBrowse project library"
+      },
+      {
+        "href": "#",
+        "label": "Home"
+      },
+      {
+        "href": "#",
+        "label": "Samples"
+      }
+    ]
+  },
+  {
+    "name": "Sample Workspace",
+    "id": "80f85329754e4eef860c474defd5e6a7",
+    "status": "Content present",
+    "text": "auto_videocam\nIdeaMotion\nProjects\nCreate video\nSettings\nnotifications\nperson\nvisibility_lock\nlock\nPrepared Sample • Read-Only Mode\nRendered via IdeaMotion Studio Core\n\nYou are previewing the finalized “Solar Panels & Photovoltaics” sample (78 seconds). AI revisions and script changes are simulated and disabled in sample view. Sign in to create your own editable videos.\n\ndownload\nDownload sample (1080p MP4)\nbolt\nSign in to create your own\nINTERACTIVE EXPLAINER ARCHIVE\n•\nModel Version 3.4-Edu\nSolar Panels & Photovoltaics\nPhysics & Clean Tech\ntimelapse\nDuration: 78s (Auto 60–90s range)\nverified\nStatus: Finalized Master\nplay_circle\nVideo Player\nreceipt_long\nStoryboard & Script (4 Scenes)\ncheck_circle\nHorizontal 16:9 (Active Master • 78s)\nsmartphone\nVertical 9:16 (Adapted Reel • 78s)\nDual Master Synced\nScene 2 of 4: The P-N Junction Field\nPhoton (hν)\nPhoton (hν)\nTop Metallic Grid\nN-Type Layer (Excess Negative Charge Carriers)\ne⁻\ne⁻\ne⁻\ne⁻\nBUILT-IN ELECTRIC FIELD (E-FIELD)\nP-Type Layer (Positive Holes / Deficits)\nh⁺\nh⁺\nh⁺\nh⁺\nRear Conductive Base Plate\nDirect Current\nIncoming photons strike silicon atoms, and\nare forced along the barrier junction.\n1. Photon Capture (0:00)\n2. P-N Field (0:18) • Active\n3. Circuit (0:40)\n4. Grid Inversion (1:00)\npause\nreplay_5\nforward_5\nvolume_up\n0:42 / 1:18\n1.0x\nfullscreen\nDual Format Delivery Pipeline\n\nBoth format adaptations are rendered with native AI layout composition—never auto-cropped or pillar-boxed.\n\nIncluded In Render\n16:9 Landscape\n78s • 1080p\nClassroom & Web Master\nExpanded visual field ideal for projectors, LMS platforms, and YouTube learning channels.\n9:16\nVertical Mobile Reel\nRe-stacked typographic cards and vertical motion vector framing for short-form learning.\ncloud_done\nAll assets compiled into offline self-contained package.\nlink\nCopy sample share link\nfile_download\nDownload 1080p Sample MP4\nSynchronized Narration\n\nSynchronized captions • Word-level timestamps synced with motion keyframes\n\nrecord_voice_over\nElena (135 wpm)\nScene 1 • Photon Capture\n0:00 - 0:18 (18s)\n\nSynchronized captions • Word-level timestamps synced with motion keyframes\n\nScene 2 • The P-N Field (Currently Playing)\n0:18 - 0:40 (22s)\n\nSynchronized captions • Word-level timestamps synced with motion keyframes\n\nKeyframe tags:\n#pn-junction\n#valence-band\n#drift-velocity\nScene 3 • Closed External Circuit\n0:40 - 1:00 (20s)\n\nSynchronized captions • Word-level timestamps synced with motion keyframes\n\nScene 4 • Grid Inversion & Utility\n1:00 - 1:18 (18s)\n\nSynchronized captions • Word-level timestamps synced with motion keyframes\n\nConversational Revisions\nSee how IdeaMotion fine-tunes visual flow via prompts\nlock\nSample View\nsmart_toy\n\nI rendered the 78-second explainer for Solar Panels with 4 calibrated scenes. You can request timing, visual, or narrative adjustments here anytime.\n\nStudio Assistant • 10:14 AM\nperson\n\nMake the electron drift along the barrier more prominent and slow down the junction transit speed in Scene 2.\n\nPreview Prompt • 10:15 AM\nsmart_toy\n\nUpdated electron drift vectors and recalculated sync for Scene 2. Added amber field force arrows and extended the depletion zone focus by 2.4 seconds.\n\nauto_awesome\nRender Patch #3 applied\nPassed Quality Check\nsend\ninfo\nSign in to unlock interactive prompt revisions and custom narration synthesis.\nSign In →\nmovie_edit\nWant to build an explainer like this for your curriculum or product?\n\nTransform technical whitepapers, textbook chapters, or product specs into synchronized 60–90 second animated explainers.\n\narrow_back\nBack to Samples library\nauto_awesome\nSign in to create your own\nIdeaMotion — Portfolio demo\nHome\nSamples",
+    "headings": [
+      "Solar Panels & Photovoltaics",
+      "Dual Format Delivery Pipeline",
+      "Synchronized Narration",
+      "Conversational Revisions",
+      "Want to build an explainer like this for your curriculum or product?"
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "Projects"
+      },
+      {
+        "href": "#",
+        "label": "Create video"
+      },
+      {
+        "href": "#",
+        "label": "Settings"
+      },
+      {
+        "href": "#",
+        "label": "Sign In →"
+      },
+      {
+        "href": "#",
+        "label": "Home"
+      },
+      {
+        "href": "#",
+        "label": "Samples"
+      }
+    ]
+  },
+  {
+    "name": "Settings",
+    "id": "bdf51b0477eb4f99bf037bdbebf0f964",
+    "status": "Content present",
+    "text": "auto_videocam\nIdeaMotion\nProjects\nCreate video\nSettings\nnotifications\nperson\ntune\nAccount & Workspace\nSettings\n\nManage your studio identity, publishing destination simulations, and local timezone preferences.\n\nLive Workspace Ready\nES\nschool\nElena Studio Educator\nOwner-Managed Live-Access\nelena@explainerstudio.internal\nbadge\nPrimary Creator & Educator\nedit\nEdit display name\nlogout\nSign out\nSimulated Publishing\nInstagram Reels Channel Simulation\nSandbox Active • Dry Run Mode\nverified\nSimulation Completed — Nothing Was Posted\n\nAll publish actions in IdeaMotion are strictly simulated test runs within your sandbox. No live posts or external social media API requests are ever dispatched. Real credentials are never stored or transmitted.\n\n@\n@explainer_studio (Simulated Educational Reel)\nConnected to Simulated Sandbox Target\nDisconnect target (Simulated)\ninfo\nSimulated Connection Unavailable\n\nIf offline or reset, simulated publish actions remain locally cached. Your 1080p MP4 download is always independently available directly from your machine.\n\nReconnect sandbox\nDismiss notice\nschedule\nRegional Preferences\nSimulated timelines & cue pacing\n\nConfigure default timezone resolution for simulated publication schedules and release queues.\n\nPREFERRED SIMULATED TIMEZONE\ncheck_circle\nAsia/Kolkata (IST - UTC+05:30)\nActive\nnest_clock_farsight_analog\nCurrent studio time: 11:26 AM IST\nPeak Window\n\nScheduled simulation runs will resolve against this timezone to align with your intended audience peak hours.\n\nDefault Explainer Pacing\nStandard\n\n130-140 words per minute for optimal cognitive retention and diagram synchronization.\n\nDigestible (110 wpm)\nStandard (135 wpm)\nBrisk (160 wpm)\nlock_reset\nSession & Local Access\n\nSign out of Elena Studio Educator session on this device. All local project drafts in your current workspace remain preserved.\n\ndraft\nWorkspace Projects Saved\n4 Master Drafts\nlogout\nSign out from this device\n\nLocal cached voice cues and generated frames will remain available on next sign-in.\n\nIdeaMotion — Portfolio demo\nHome\nSamples",
+    "headings": [
+      "Settings"
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "Projects"
+      },
+      {
+        "href": "#",
+        "label": "Create video"
+      },
+      {
+        "href": "#",
+        "label": "Settings"
+      },
+      {
+        "href": "#",
+        "label": "Home"
+      },
+      {
+        "href": "#",
+        "label": "Samples"
+      }
+    ]
+  },
+  {
+    "name": "Sign Up",
+    "id": "4faa1f0b58c2481999c3d28ad5fb05f8",
+    "status": "Content present",
+    "text": "auto_awesome\nIdeaMotion\nauto_awesome\nIdeaMotion\nExplore samples\nschool\nEducator & Creator Registration\nCreate your account\n\nStart organizing your curriculum ideas and reviewing pedagogical explainers.\n\ninfo\nACCESS POLICY\n\nCreating an account does not enable live generation. Explore prepared samples while access is managed by the project owner.\n\nFull name\nbadge\nEmail address\nalternate_email\nPassword\nvisibility\nShow\nlock\nradio_button_unchecked\nAt least 8 characters\nradio_button_unchecked\nIncludes letters & numbers\nConfirm password\nlock_reset\nCreate account\nAlready have an account?\nSign in\nscience\nPedagogical Scaffolding\nLive Preview\nChloroplast Light Reaction\nScene 1: Photon Capture • 0:14s\nSolar Photon Wave (hν)\nThylakoid Lipid Bilayer\nPS II\nH₂O\n2H⁺ + ½O₂ + 2e⁻\ne⁻ Path\nCyt b₆f\nATP\nEnergy Carrier Packet\nplay_arrow\nStep 1: Water Photolysis & Charge Transfer\n00:14 / 01:15\nPEDAGOGICAL DESIGN FEATURES\ncheck\nStructured cognitive pacing\ncheck\nPhonetic subtitle alignment\ncheck\nResponsive educational layouts\nformat_quote\n\n“Transform technical concepts into clear, student-ready animated explainers.”\n\n01\nReady to review samples?\nExplore ready-to-teach explainer lessons\nBrowse Library\narrow_forward\nIdeaMotion — Portfolio demo\nHome\nSamples",
+    "headings": [
+      "Create your account"
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "auto_awesome\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "label": "auto_awesome\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "label": "Explore samples"
+      },
+      {
+        "href": "#",
+        "label": "Sign in"
+      },
+      {
+        "href": "#",
+        "label": "Browse Library\narrow_forward"
+      },
+      {
+        "href": "#",
+        "label": "Home"
+      },
+      {
+        "href": "#",
+        "label": "Samples"
+      }
+    ]
+  },
+  {
+    "name": "Sign In",
+    "id": "acc2c08c06804c4cabde0205dda1e189",
+    "status": "Content present",
+    "text": "auto_awesome\nIdeaMotion\nBack to home\nExplore samples\nlock_open\nIdeaMotion Studio Access\nWelcome back\n\nSign in to access your educational explainer drafts and review pipeline.\n\nEmail address\nmail\nPassword\nvisibility\nRemember me on this browser\nForgot password?\nSign in\narrow_forward\nDon't have an account? Create an account\nSTATE PREVIEW CONTROLS\nInteractive testing\nDefault\nWrong credentials\nInvalid email\nSigning in...\nIdeaMotion Studio Workspace • v2.4 Editorial Engine\nauto_awesome\nKinetic Learning in Motion\n60–90s Pacing\nCurriculum in Pure Clarity\n\nIdeaMotion turns curriculum concepts into luminous animated explainer videos.\n\nSCENE 03 • OPTICS\nT:0.00s\nT:1.45s\nIdeaMotion — Portfolio demo\nHome\nSamples",
+    "headings": [
+      "\n              Welcome back\n            ",
+      "\n              Curriculum in Pure Clarity\n            "
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "auto_awesome\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "label": "Back to home"
+      },
+      {
+        "href": "#",
+        "label": "Explore samples"
+      },
+      {
+        "href": "#",
+        "label": "Forgot password?"
+      },
+      {
+        "href": "#",
+        "label": "Create an account"
+      },
+      {
+        "href": "#",
+        "label": "Home"
+      },
+      {
+        "href": "#",
+        "label": "Samples"
+      }
+    ]
+  },
+  {
+    "name": "Forgot Password",
+    "id": "e259e5a9d48b40a9921046257019e9d0",
+    "status": "Content present",
+    "text": "auto_awesome\nIdeaMotion\nauto_awesome\nIdeaMotion\nExplore samples\nlock_reset\nAccount Recovery\n• Step 1 of 2\nReset your password\n\nEnter the email address associated with your studio account to receive a reset link.\n\nEmail address\nInstitutional or Studio ID\nalternate_email\nSend reset link\narrow_forward\nwest\nBack to sign in\nmark_email_read\nCONFIRMATION\nEmail Delivery Queue\nActive Session\nverified\n\nIf an account exists for this email, a reset link has been sent.\n\nCheck your inbox for instructions to reset your password. The link will remain active for your recovery session.\n\nResend link\nNeed to use a different email? Re-enter address\nWORKSPACE\nPersistent Studio Drafts\nhistory_edu\ninventory_2\n\nYour saved work is preserved.\n\nlightbulb\nGUEST DISCOVERY\n\nExploring the platform without an account? You can freely inspect our curated Prepared Samples at any time.\n\nExplore samples\ntrending_flat\nIdeaMotion — Portfolio demo\nHome\nSamples",
+    "headings": [
+      "\n            Reset your password\n          ",
+      "Email Delivery Queue",
+      "Persistent Studio Drafts"
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "auto_awesome\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "label": "auto_awesome\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "label": "Explore samples"
+      },
+      {
+        "href": "#",
+        "label": "west\nBack to sign in"
+      },
+      {
+        "href": "#",
+        "label": "Explore samples\ntrending_flat"
+      },
+      {
+        "href": "#",
+        "label": "Home"
+      },
+      {
+        "href": "#",
+        "label": "Samples"
+      }
+    ]
+  },
+  {
+    "name": "Verify Email",
+    "id": "9c46b94fa63c416f860e9741fbe88520",
+    "status": "Content present",
+    "text": "auto_awesome_motion\nIdeaMotion\nauto_awesome_motion\nIdeaMotion\nExplore samples\nperson\nverified_user\nEMAIL VERIFICATION • SECURITY & IDENTITY\nCheck your inbox\n\nWe have sent a verification link to confirm your account access. Please follow the instructions sent to your email address.\n\nmark_email_unread\nEmail address\ne•••••••@stanford-learning.org\nedit\nChange email\nAwaiting Confirmation\nDelivery Complete\nVerification in progress\nCooldown active\nupdate\nResend verification email\narrow_back\nBack to sign in\nhelp\n\nCan't find the email? Check your spam or promotions folder, or request a fresh link below.\n\nhistory\nLink expired or invalid?\nIf your verification link has expired, request a fresh confirmation link without re-entering credentials.\nSend fresh link\nPedagogical Vector Pipeline\nEmail address\n60–90s Lesson Synthesis\nAcoustic Sine Wave\nSynchronized captions\nPhonetic Alignment\nSynchronized captions\nInteractive Lesson Preview\nReal-time script synchronizer\n\nIdeaMotion automatically sequences mathematical concepts, sound frequencies, and visual cues into rhythmic narrative beats before rendering.\n\nauto_stories\nWhile you verify\n\nInspect our pre-rendered educational explainers to see how academic institutions turn complex science into crisp motion graphics.\n\nExplore sample lessons\narrow_forward\nIdeaMotion\n—\nPortfolio demo\nHome\nSamples",
+    "headings": [
+      "Check your inbox"
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "auto_awesome_motion\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "label": "auto_awesome_motion\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "label": "Explore samples"
+      },
+      {
+        "href": "#",
+        "label": "arrow_back\nBack to sign in"
+      },
+      {
+        "href": "#",
+        "label": "Explore sample lessons\narrow_forward"
+      },
+      {
+        "href": "#",
+        "label": "Home"
+      },
+      {
+        "href": "#",
+        "label": "Samples"
+      }
+    ]
+  },
+  {
+    "name": "Password Updated",
+    "id": "ab5d38fc2cf64d588b0f82401dc4a537",
+    "status": "Content present",
+    "text": "auto_awesome_motion\nIdeaMotion\nBack to home\nExplore samples\nperson\nverified\nPassword Security • Complete\nPassword updated\n\nYour password has been updated. Please sign in with your new password.\n\nlock_person\nManual Sign-In Required\nFor your account security, you have not been logged in automatically. Enter your updated credentials to resume your workspace.\nSign in to IdeaMotion\narrow_forward\nExplore samples\nshield_lock\nProtected Asset Safeguard\n\nYour session is secure. All active drafts and saved projects will be accessible once you sign in.\n\narrow_back\nReturn to home\n•\nNeed to reset again?\nSTORYBOARD SYNC\nEducational Storyboard Continuity\nReady to Resume\nLesson Pipeline: \"Solar Photovoltaic Principles\"\n4/4 Nodes Synced\n1. Photon Capture\nCOMPLETED\n2. P-N Junction\nCOMPLETED\n3. Circuit Flow\nCOMPLETED\n4. Grid Export\nREADY\nVoiceover Track\nAudio synced\nWant to review lessons while signing in?\nCheck our curated 60–90 second explainer library.\nExplore prepared samples\narrow_forward\nIdeaMotion — Portfolio demo\nHome\nSamples",
+    "headings": [
+      "Password updated",
+      "Educational Storyboard Continuity"
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "auto_awesome_motion\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "label": "Back to home"
+      },
+      {
+        "href": "#",
+        "label": "Explore samples"
+      },
+      {
+        "href": "#",
+        "label": "Sign in to IdeaMotion\narrow_forward"
+      },
+      {
+        "href": "#",
+        "label": "Explore samples"
+      },
+      {
+        "href": "#",
+        "label": "arrow_back\nReturn to home"
+      },
+      {
+        "href": "#",
+        "label": "Need to reset again?"
+      },
+      {
+        "href": "#",
+        "label": "Explore prepared samples\narrow_forward"
+      },
+      {
+        "href": "#",
+        "label": "Home"
+      },
+      {
+        "href": "#",
+        "label": "Samples"
+      }
+    ]
+  },
+  {
+    "name": "Reset Password",
+    "id": "7dfcde321aa64e9895e69f121534526e",
+    "status": "Content present",
+    "text": "auto_awesome_motion\nIdeaMotion\nBack to home\nExplore samples\nperson\nAccount Recovery • Step 2 of 2\nSet new password\n\nEnter and confirm your new secure studio password below.\n\nNew password\nverified_user\nRequired\nvisibility\ninfo\nAt least 8 characters, letters & numbers\nConfirm password\nvisibility\nSave new password\narrow_forward\narrow_back\nBack to sign in\nSTATE VARIANT PREVIEW\nInactive token\nlink_off\nExpired or Invalid Link\n\nThis password reset link has expired or has already been used. Please request a new one to regain instant studio access.\n\nRequest a new link\nsync\nmotion_photos_on\nVisual Storytelling\n\nTransforming concepts into intuitive visual animations with synchronized pacing and crystal-clear illustrations.\n\nBase Pairing\nTranscription Beat\nRender & Polish\nPhase 01\nKey Concepts\nEssential foundations\nPhase 02\nNarration\nNatural pacing\nPhase 03\nMotion\nVisual clarity\ncloud_done\nStudio Continuity\n\nYour saved projects and drafts will be ready when you sign back in.\n\nBrowse prepared samples\nplay_circle\nIdeaMotion — Portfolio demo\nHome\nSamples",
+    "headings": [
+      "Set new password",
+      "Expired or Invalid Link",
+      "Visual Storytelling"
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "auto_awesome_motion\nIdeaMotion"
+      },
+      {
+        "href": "#",
+        "label": "Back to home"
+      },
+      {
+        "href": "#",
+        "label": "Explore samples"
+      },
+      {
+        "href": "#",
+        "label": "arrow_back\nBack to sign in"
+      },
+      {
+        "href": "#",
+        "label": "Request a new link\nsync"
+      },
+      {
+        "href": "#",
+        "label": "Browse prepared samples\nplay_circle"
+      },
+      {
+        "href": "#",
+        "label": "Home"
+      },
+      {
+        "href": "#",
+        "label": "Samples"
+      }
+    ]
+  },
+  {
+    "name": "Access Status",
+    "id": "05ec544e174e417e9eb4a365c928e00a",
+    "status": "Content present",
+    "text": "auto_videocam\nIdeaMotion\nProjects\nCreate video\nSettings\nnotifications\nperson\narrow_back\nWorkspace\n•\nGeneration Access Status\nSESSION VALID\nEV\ncheck\nElena Vance\nEducator Role\n\nelena@stanford-learning.org\n\nAffiliation\nCognitive Media Lab\nmanage_accounts\nOWNER DELEGATION POLICY\nLive generation access is managed by the project owner.\n\nWhile real-time AI video synthesis and automated prompt orchestration are active only on primary instructor seats, your workspace retains complete, unobstructed review privileges across all curriculum repositories.\n\nYou can inspect storyboard structures, preview 1080p lesson modules, export classroom presentation notes, and run pre-rendered visual demonstrations anytime.\n\nplay_circle\nExplore prepared samples\nhome\nReturn home\nlogout\nSign out\ninventory_2\nPreserved Curriculum Assets\n\nAll 14 previously prepared chapter sequences and vector timeline files remain safe and ready to stream.\n\nverified\naccount_tree\nScaffolded Modules\nReady 1080p\n\nCurated pedagogical trajectories verified for interactive classroom playback and student comprehension:\n\nCore Concept\nVerified Storyboard\nCurated Synthesis\nOwner Optimized\n1080p Review\nFully Streamable\nLecture Transcripts\nSynchronized Text\nAVAILABLE EXPLAINER UNITS\nmovie\n\nCognitive Load & Diagram Phrasing\n\n03:42 • Vector Animation\n\nvisibility\nmovie\n\nCellular Respiration Narrative Arc\n\n05:15 • 1080p Master\n\nvisibility\ndescription\n\nCalculus: Limits & Derivatives Primer\n\nInteractive Visual Transcript\n\nvisibility\ntips_and_updates\nNeed custom generation?\n\nCollaborative project creators can generate new sequences directly from their authorized lead accounts, automatically placing new videos here for you.\n\n© 2025 IdeaMotion Studio Inc.\n•\nIntelligent Educational Storytelling\nCreation Studio\nWorkspace\nPrivacy Policy\nTerms of Service",
+    "headings": [
+      "Elena Vance",
+      "Live generation access is managed by the project owner.",
+      "Preserved Curriculum Assets"
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "Projects"
+      },
+      {
+        "href": "#",
+        "label": "Create video"
+      },
+      {
+        "href": "#",
+        "label": "Settings"
+      },
+      {
+        "href": "#",
+        "label": "arrow_back\nWorkspace"
+      },
+      {
+        "href": "#",
+        "label": "play_circle\nExplore prepared samples"
+      },
+      {
+        "href": "#",
+        "label": "home\nReturn home"
+      },
+      {
+        "href": "#",
+        "label": "Creation Studio"
+      },
+      {
+        "href": "#",
+        "label": "Workspace"
+      },
+      {
+        "href": "#",
+        "label": "Privacy Policy"
+      },
+      {
+        "href": "#",
+        "label": "Terms of Service"
+      }
+    ]
+  },
+  {
+    "name": "Authentication Recovery",
+    "id": "ec77872ec46249f59c27146f2beeeb85",
+    "status": "Content present",
+    "text": "auto_videocam\nIdeaMotion\nProjects\nCreate video\nSettings\nnotifications\nperson\nSESSION & WORKSPACE SYNC\nRecovery & Session Check\n\nYour session has expired or the link is no longer valid. Please sign in again to continue.\n\ncloud_done\nSaved drafts status\nSafe Cache\n\nAny saved work is preserved.\n\nlogin\nRetry sign in\nplay_circle\nView samples\narrow_back\nBack to home\nDiagnostics & Context\nInspect system state responses\nSession Expired\nCallback Loading\nInvalid Link\ntimer\nIdle session timeout\n\nTo protect educational storyboards from unattended modifications, IdeaMotion refreshes credentials after periods of inactivity. Any saved work is preserved in your workspace cloud.\n\nActive project node cache: Intact\nCloud Draft Preservation Pipeline\nSession decoupling from project state\nschema\nAUTH SESSION\nToken Expired\nLocal Sandbox\nPERSISTENT WORKSPACE\nScene Nodes & Scripts\nLocked\nVoiceover & Audio Track\nSafe\nMotion Keyframe Sequences\nCached\nIdeaMotion — Portfolio demo\nHome\nSamples",
+    "headings": [
+      "\n              Recovery & Session Check\n            "
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "Projects"
+      },
+      {
+        "href": "#",
+        "label": "Create video"
+      },
+      {
+        "href": "#",
+        "label": "Settings"
+      },
+      {
+        "href": "#",
+        "label": "arrow_back\nBack to home"
+      },
+      {
+        "href": "#",
+        "label": "Home"
+      },
+      {
+        "href": "#",
+        "label": "Samples"
+      }
+    ]
+  },
+  {
+    "name": "Unavailable",
+    "id": "38061213566147f3affbdcbb83400729",
+    "status": "Content present",
+    "text": "IdeaMotion\nProjects\nCreate video\nSettings\nnotifications\nperson\nSTUDIO NAVIGATION NOTICE\nStudio Drafts\nShared Space\nThis page or project is unavailable\n\nThe requested link may be broken, or the project may not be accessible from your account.\n\ngrid_view\nBack to projects\nmovie_edit\nView samples\nhome\nReturn home\nwifi_off\nInterruption Monitor\nStandby mode\nConnection unavailable — Unable to reach studio services\n\nPlease check your internet connection or verify router settings. If your connection dropped midway through rendering, our workers pause until reconnect.\n\nsync\nRetry connection\ncloud_sync\nAutomatic sync resumes when back online\nverified_user\nAny saved work is preserved\n\nDrafts and exported assets in your workspace remain safely stored and will be ready when you return.\n\nIdeaMotion — Portfolio demo\nHome\nSamples",
+    "headings": [
+      "\n          This page or project is unavailable\n        ",
+      "\n              Connection unavailable — Unable to reach studio services\n            ",
+      "Any saved work is preserved"
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "Projects"
+      },
+      {
+        "href": "#",
+        "label": "Create video"
+      },
+      {
+        "href": "#",
+        "label": "Settings"
+      },
+      {
+        "href": "#",
+        "label": "grid_view\nBack to projects"
+      },
+      {
+        "href": "#",
+        "label": "movie_edit\nView samples"
+      },
+      {
+        "href": "#",
+        "label": "home\nReturn home"
+      },
+      {
+        "href": "#",
+        "label": "Home"
+      },
+      {
+        "href": "#",
+        "label": "Samples"
+      }
+    ]
+  },
+  {
+    "name": "Projects Empty",
+    "id": "372839cc78a84577aac6c8a845369076",
+    "status": "Content present",
+    "text": "IdeaMotion\nProjects\nCreate video\nSettings\nnotifications\nperson\nmovie_edit\nWORKSPACE READY\nNo projects yet\n\nYour workspace is ready. Begin drafting your first pedagogical explainer video, or explore our curated sample library to see how complex topics are structured.\n\nadd\nCreate your first explainer\nauto_stories\nExplore prepared samples\nSTARTER BLUEPRINTS\nExplore starting prompts\n\nPre-formatted structural scaffolding for academic explainers\n\nBiology\nschedule\n60-90s\nlight_mode\nPhotosynthesis Light Reactions\n\nCognitive breakdown of thylakoid electron transport with dynamic keyframe pacing and ATP synthase tracking.\n\nStart with this topic\narrow_forward\nPhysics\nschedule\n75s\nwaves\nGravitational Wave Propagation\n\nAcoustic sync and spacetime curvature vector visualization illustrating binary black hole mergers.\n\nStart with this topic\narrow_forward\nLife Sciences\nschedule\n90s\ngrain\nMitosis & Cellular Division\n\nStepwise diagrammatic explainer detailing spindle fiber micro-tubules and chromosome alignment phases.\n\nStart with this topic\narrow_forward\nINTERFACE DIALOG PREVIEWS\nStandard Project Actions\nedit\nAction Variant A\nLive Preview\nRename Project\n\nUpdate the title of your pedagogical draft timeline.\n\nProject title\nCancel\nSave changes\ndelete\nAction Variant B\nDestructive Modal\nwarning\nDelete Project\n\nAre you sure you want to delete this draft? This action cannot be undone.\n\ninfo\nAll render keyframes and storyboard caches will be flushed.\nCancel\nDelete permanently\nIdeaMotion\n\nTransform complex academic ideas and product concepts into luminous, crystal-clear explainer videos with generative AI simplicity.\n\nSTUDIO TOOLS\nProjects Overview\nNew Video Draft\nRender Status\nGPU Capacity\nWORKSPACE\nProject Library\nDocumentation & Ethics\nSystem Status\nSupport & Community\n\n© 2025 IdeaMotion Studio Inc. All rights reserved.\n\nPrivacy Policy\nTerms of Service\nSecurity Overview",
+    "headings": [
+      "No projects yet",
+      "Explore starting prompts",
+      "\n              Photosynthesis Light Reactions\n            ",
+      "\n              Gravitational Wave Propagation\n            ",
+      "\n              Mitosis & Cellular Division\n            ",
+      "Standard Project Actions",
+      "Rename Project",
+      "Delete Project"
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "IdeaMotion"
+      },
+      {
+        "href": "#",
+        "label": "Projects"
+      },
+      {
+        "href": "#",
+        "label": "Create video"
+      },
+      {
+        "href": "#",
+        "label": "Settings"
+      },
+      {
+        "href": "#",
+        "label": "Projects Overview"
+      },
+      {
+        "href": "#",
+        "label": "New Video Draft"
+      },
+      {
+        "href": "#",
+        "label": "Render Status"
+      },
+      {
+        "href": "#",
+        "label": "GPU Capacity"
+      },
+      {
+        "href": "#",
+        "label": "Project Library"
+      },
+      {
+        "href": "#",
+        "label": "Documentation & Ethics"
+      },
+      {
+        "href": "#",
+        "label": "System Status"
+      },
+      {
+        "href": "#",
+        "label": "Support & Community"
+      },
+      {
+        "href": "#",
+        "label": "Privacy Policy"
+      },
+      {
+        "href": "#",
+        "label": "Terms of Service"
+      },
+      {
+        "href": "#",
+        "label": "Security Overview"
+      }
+    ]
+  },
+  {
+    "name": "Generation Recovery",
+    "id": "54a2261e83a54db5830868eeb78baf11",
+    "status": "Content present",
+    "text": "IdeaMotion\nProjects\nCreate video\nSettings\nnotifications\nperson\ncheck\nSTAGE 01\nCore Idea\ncheck\nSTAGE 02\nStoryboard Plan\nsync_problem\nSTAGE 03\nPAUSED\nSynthesizing\nlock\nSTAGE 04\nMaster Publish\nshield\nWorkspace Recovery Channel\nSession #IM-8842-PV\nVideo generation could not be completed\n\nThe generation worker encountered an unexpected pause while synthesizing scene 3 keyframes. Your storyboard structure and saved script nodes are intact.\n\nStoryboard Keyframe Integrity\nScenes 1 & 2 Safe\nPause marker: 01:14 / 02:40\n01\nPhotons\n02\nP-N Junction\npriority_high\nScene 03\n04\nGrid Link\nreplay\nRetry when safe\narrow_back\nBack to storyboard\nRetains completed scenes 1 & 2\ncloud_done\nCLOUD SYNCHRONIZATION\nStoryboard saved: Today at 10:48 AM\nDraft Rev. 03A\nwarning\nImportant Unsaved Edit Disclosure\n\nNote: Any script edits made after 10:48 AM while in offline mode were not committed. Saved cloud drafts remain fully protected.\n\nREADY ALTERNATE\nPrevious Version\nDraft 02 - Verified\nplay_arrow\n1080p Master File\n72 seconds\n\"How Silicon Photovoltaics Turn Solar Radiance into DC Current\"\n\nProduced 34 minutes ago with full voice narration & keyframes intact.\n\ndownload\nDownload previous MP4\nInspect draft nodes\nopen_in_new\nWORKSPACE ASSET HEALTH\nmic\nVoice narration script\nUnchanged (02:40)\npalette\nStyle palette & visual theme\nPreserved\nview_timeline\nScene 1 & 2 synthesis files\nCached locally\nDIAGNOSTIC SIMULATORS\nAlternate Interruption Scenarios\n\nExplore how the workspace handles varied session states with unambiguous recovery actions.\n\nState 01\ncancel\nCancel Requested\n\nUser manually requested generation cancellation during the synthesis sequence. Workspace resources are paused safely.\n\nplay_arrow\nResume generation\ndelete_sweep\nDiscard job\nState 02\nOffline\nInterrupted Connection\n\nTemporary websocket connection loss occurred. Background progress remains preserved at the active scene checkpoint.\n\nwifi_protected_setup\nReconnect worker\nLast ping check: 8 seconds ago\nState 03\ndifference\nVersion Conflict\n\nConcurrent edits occurred on this project in another tab. Cloud state contains script node variations compared to this render.\n\ncompare_arrows\nCompare versions\nrefresh\nReload deliberately\nIdeaMotion\n\nTransform complex academic ideas and product concepts into luminous, crystal-clear explainer videos with generative AI simplicity.\n\nSTUDIO TOOLS\nProjects Overview\nNew Video Draft\nRender Status\nGPU Capacity\nWORKSPACE\nProject Library\nDocumentation & Ethics\nSystem Status\nSupport & Community\n\n© 2025 IdeaMotion Studio Inc. All rights reserved.\n\nPrivacy Policy\nTerms of Service\nSecurity Overview",
+    "headings": [
+      "\n            Video generation could not be completed\n          ",
+      "Previous Version",
+      "Alternate Interruption Scenarios",
+      "Cancel Requested",
+      "Interrupted Connection",
+      "Version Conflict"
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "IdeaMotion"
+      },
+      {
+        "href": "#",
+        "label": "Projects"
+      },
+      {
+        "href": "#",
+        "label": "Create video"
+      },
+      {
+        "href": "#",
+        "label": "Settings"
+      },
+      {
+        "href": "#",
+        "label": "Inspect draft nodes\nopen_in_new"
+      },
+      {
+        "href": "#",
+        "label": "Projects Overview"
+      },
+      {
+        "href": "#",
+        "label": "New Video Draft"
+      },
+      {
+        "href": "#",
+        "label": "Render Status"
+      },
+      {
+        "href": "#",
+        "label": "GPU Capacity"
+      },
+      {
+        "href": "#",
+        "label": "Project Library"
+      },
+      {
+        "href": "#",
+        "label": "Documentation & Ethics"
+      },
+      {
+        "href": "#",
+        "label": "System Status"
+      },
+      {
+        "href": "#",
+        "label": "Support & Community"
+      },
+      {
+        "href": "#",
+        "label": "Privacy Policy"
+      },
+      {
+        "href": "#",
+        "label": "Terms of Service"
+      },
+      {
+        "href": "#",
+        "label": "Security Overview"
+      }
+    ]
+  },
+  {
+    "name": "Capacity Unavailable",
+    "id": "6d03e77086b2466bbacc0033e856d1aa",
+    "status": "Content present",
+    "text": "IdeaMotion\nProjects\nCreate video\nSettings\nnotifications\nperson\nSTUDIO RENDERING QUEUE PAUSED\nLive generation is temporarily unavailable\n\nOur studio video synthesis pipeline is currently operating at maximum allocation. New video rendering is momentarily paused, but your drafts and ideas are completely safe.\n\nauto_videocam\nSynthesis Cadence\nCapacity Buffer Active\nlock\nDrafts Secured\nSynthesizer Gate Closed\nStudio Intake Resuming\nrefresh\nCheck availability\narrow_back\nReturn to project\nlightbulb\nExplore samples\ninfo\nTesting studio synthesis slots...\nbookmark_added\nYour saved idea is available\nSafe\nACTIVE PROJECT WORKSPACE\nSolar Panels & Photovoltaics\n\nScenes 1–4 script structure and generated visual prompts are securely cached and synchronized.\n\nScenes\n4 / 4 Scripted\nKeyframe Prompts\n12 Preserved\nwarning\nLocal Session Notice\n\nYour saved workspace draft is safe in your local browser and cloud storage. Note: Unsaved inline script edits currently in memory must be kept open until reconnection. Please avoid refreshing this tab.\n\ncloud_done\nDraft intact • No data lost\nLast synched just now\nEDUCATIONAL STUDIO LIBRARY\nWhile you wait: Inspect pre-rendered samples\nStudy pacing & transitions\nplay_arrow\n02:14\nMiddle School Science\nThe Water Cycle\n\nAtmospheric phase changes, condensation nuclei, and adiabatic cooling modeled with clarity.\n\n4 scenes • 2 visual styles\nPreview\narrow_forward\nplay_arrow\n01:48\nClean Tech 101\nSolar vs. Wind Power\n\nComparative power density, seasonal storage challenges, and grid balancing metrics.\n\n3 scenes • Dynamic charts\nPreview\narrow_forward\nschool\n\nIdeaMotion videos utilize cognitive load theory: paired audio narration and simultaneous keyframe synthesis accelerate comprehension without visual distraction.\n\nIdeaMotion\n\nTransform complex academic ideas and product concepts into luminous, crystal-clear explainer videos with generative AI simplicity.\n\nSTUDIO TOOLS\nProjects Overview\nNew Video Draft\nRender Status\nGPU Capacity\nWORKSPACE\nProject Library\nDocumentation & Ethics\nSystem Status\nSupport & Community\n\n© 2025 IdeaMotion Studio Inc. All rights reserved.\n\nPrivacy Policy\nTerms of Service\nSecurity Overview",
+    "headings": [
+      "\n          Live generation is temporarily unavailable\n        ",
+      "\n                Solar Panels & Photovoltaics\n              ",
+      "While you wait: Inspect pre-rendered samples",
+      "\n                    The Water Cycle\n                  ",
+      "\n                    Solar vs. Wind Power\n                  "
+    ],
+    "bg": "rgb(254, 247, 255)",
+    "font": "Inter",
+    "links": [
+      {
+        "href": "#",
+        "label": "IdeaMotion"
+      },
+      {
+        "href": "#",
+        "label": "Projects"
+      },
+      {
+        "href": "#",
+        "label": "Create video"
+      },
+      {
+        "href": "#",
+        "label": "Settings"
+      },
+      {
+        "href": "#",
+        "label": "arrow_back\nReturn to project"
+      },
+      {
+        "href": "#samples-gallery",
+        "label": "lightbulb\nExplore samples"
+      },
+      {
+        "href": "#",
+        "label": "Projects Overview"
+      },
+      {
+        "href": "#",
+        "label": "New Video Draft"
+      },
+      {
+        "href": "#",
+        "label": "Render Status"
+      },
+      {
+        "href": "#",
+        "label": "GPU Capacity"
+      },
+      {
+        "href": "#",
+        "label": "Project Library"
+      },
+      {
+        "href": "#",
+        "label": "Documentation & Ethics"
+      },
+      {
+        "href": "#",
+        "label": "System Status"
+      },
+      {
+        "href": "#",
+        "label": "Support & Community"
+      },
+      {
+        "href": "#",
+        "label": "Privacy Policy"
+      },
+      {
+        "href": "#",
+        "label": "Terms of Service"
+      },
+      {
+        "href": "#",
+        "label": "Security Overview"
+      }
+    ]
+  }
+]
